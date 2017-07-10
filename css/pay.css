@@ -1,0 +1,781 @@
+.content .location{
+	padding-left: 25px;
+	background: none;
+	padding: 20px 0 0 0;
+}
+.content .location p{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+	padding-left: 27px;
+}
+.content .location p a{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.content .location p span{
+	color: #666666;
+}
+.content .service_mess{
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	font-family: "微软雅黑";
+	margin-top: 26px;
+	padding-left: 16px;
+}
+.content .service_mess h1{
+	color: #666666;
+	font-size: 14px;
+	padding-left: 1.93%;
+	font-weight: normal;
+}
+.content .service_mess table{
+	width: 96.5%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+}
+.content .service_mess table th{
+	background: #fbb08b;
+	text-align: center;
+	border: 1px solid #b2b2b2; 
+	height: 30px;
+	line-height: 30px;
+}
+.content .service_mess table th:nth-child(3){
+	width: 16%;
+}
+.content .service_mess table td{
+	border: 1px solid #b2b2b2; 
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+}
+.content .service_mess table span a{
+	color: #999999;
+	font-size: 14px;
+	padding-left: 13px;
+	text-decoration: none;
+}
+.content .invoice{
+	font-family: "微软雅黑";
+	padding-left: 2.93%;
+}
+.content .invoice h1{
+	font-size: 18px;
+	color: #666666;
+	font-weight: normal;
+	margin: 21px 0 24px;
+}
+.content .invoice label{
+	color: #666666;
+	font-weight: normal;
+}
+.content .invoice .radio span{
+	color: #666666;
+}
+.content .invoice .radio label{
+	margin-left: 12px;
+	background: url(../img/list.png) no-repeat left;
+}
+.content .invoice .radio label:nth-child(3){
+	margin-left: 20px;
+}
+.content .invoice .radio label:nth-child(4){
+	margin-left: 20px;
+}
+.content  .radio label.on{
+	background: url(../img/list_01.jpg) no-repeat left;
+}
+.content .pay .radio label{
+	padding-left: 95px;
+}
+.content .invoice .radio input{
+	visibility: hidden;
+}
+.content .invoice .inv_way{
+	margin: 10px 0;
+}
+.content .invoice .inv_way select{
+	color: #666666;
+	width: 10.6%;
+	margin-left: 12px;
+}
+.content .invoice .number{
+	margin-bottom: 10px;
+}
+.content .invoice .number input{
+	margin-left: 21px;
+	width: 10.6%;
+}
+.content .invoice .number span{
+	color: #666666;
+	padding-left: 36px;
+	
+}
+.content .inv_head select{
+	margin-left: 11px;
+	color: #666666;
+	margin-bottom: 8px;
+}
+.content .inv_con .check{
+	padding-left: 7.1%;
+}
+.content .inv_con label:nth-child(2){
+	padding-left: 8px;
+}
+.content .inv_con .ra_chec{
+	float: left;
+}
+.content .inv_con .dropup, .dropdown{
+	float: left;
+}
+.content .inv_con  .dropdown .btn {
+    margin-left: 7px;
+}
+.content .inv_con span{
+	color: #666666;
+}
+.content .inv_con .dropdown span i {
+	border-color: #b5b5b5 transparent transparent transparent;
+}
+.content .inv_con .dropdown .trangle {
+    width: 24px;
+    height: 20px;
+    background: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    border: 1px solid #b2b2b2;
+}
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+    margin-top: 0;
+    margin-left: 76px;
+}
+.content .inv_con .open > .dropdown-menu {
+    margin-left: 8px;
+    min-width: 172%;
+}
+.content .inv_con button {
+    border-color: #b5b5b5;
+    background: #FFFFFF;
+    border-radius: 0;
+    padding: 0 0 0 0;
+    width: 172%;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.content .shop_car h1{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #666666;
+	width: 100%;
+	border-bottom: 3px solid #c8c6c7;
+	padding-bottom: 7px;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+.content .shop_car table{
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #999999;
+	text-align: center;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .shop_car thead{
+	border-bottom: 1px solid #999999;
+	width: 100%;
+	color: #666666;
+	height: 36px;
+	text-align: center;
+}
+.content .shop_car thead th{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .shop_car table td{
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content th:nth-child(2){
+	padding-left: 18px;
+	width: 42.1%;
+}
+.content .shop_car th:nth-child(1){
+	width: 77px;
+}
+.content th:nth-child(5){
+	width: 13%;
+}
+.content td.all-check{
+	text-align: left;
+}
+.content th .all{
+	font-weight: normal;
+	letter-spacing: 4px;
+	line-height: 39px;
+}
+.content table .c-checkbox{
+	cursor: pointer;
+	padding-left: 26px;
+	height: 36px;
+	margin-left: 10px;
+	background: url(../img/pay_shop.jpg) no-repeat left center;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content table .c-checkbox.on{
+	background: url(../img/pay_shop_true.jpg) no-repeat left center;
+}
+.content table label{
+	margin-bottom: 0;
+}
+.content table .c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.content table tbody{
+	border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+.content table tbody .goods{
+	padding-top: 23px;
+}
+.content table tbody .goods img{
+		display: block;
+		float: left;
+}
+.content table tbody .goods .goods_text{
+	float: left;
+}
+.content table tbody .goods p a{
+
+	float: left;
+	font-size: 16px;
+	color: #CC6633;
+	font-weight: normal;
+	padding-top: 28px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	
+}
+.content table tbody .goods p{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+}
+.content table tbody .goods p span{
+	padding-left: 35px;
+}
+
+.content table .count .add,
+ .reduce{
+	height: 20px;
+	width: 17px;
+	border: 1px solid #bababa;
+	color: #666666;
+	text-align: center;
+	line-height: 18px;
+	display: block;
+	float: left;
+	margin-right: -1px;
+	cursor: pointer;
+	background: #E6E6E6;
+}
+.content .count .count-input{
+	float: left;
+	width: 22px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #bababa;
+	line-height: 15px;
+	outline: none;
+}
+.content .dropdown .btn{
+	position: relative;
+}
+.content .dropdown .trangle{
+	width: 24px;
+    height: 20px;
+    background: #cc6633;
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+.content .dropdown-menu > li > a {
+    padding: 3px 10px;
+}
+.open > .dropdown-menu{
+	margin-left: 28px;
+	min-width: 64%;
+	border-radius: 0;
+	margin-top: 0;
+	text-align: center;
+}
+.content .dropdown span i{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 7px solid #8a3e26;
+	border-color:#FFFFFF transparent transparent transparent;
+	margin-top: 8px;
+    margin-left: 6px;
+}
+.content table .dropdown{
+	float: none;
+}
+.content  table td .none{
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content button{
+	border-color: #cc6633;
+	background: #FFFFFF;
+	border-radius: 0;
+	padding:0 0 0 0;
+	width: 63%;
+    text-align: left;
+    padding-left: 18px;
+}
+.content .del a{
+	text-decoration: none;
+	color: #666666;
+	padding-right: 30px;
+}
+.content .pay{
+	clear: both;
+	overflow: hidden;
+	width: 92.17%;
+	margin: 65px auto 0;
+}
+.content .pay .pay_top{
+	width: 100%;
+	height: 55px;
+	border: 1px solid #b2b2b2;
+	line-height: 55px;
+	font-family: "新宋体";
+	font-size: 12px;
+	color: #666666;
+}
+.content .pay .pay_top .radio{
+	float: left;
+	margin-top: 0px;
+	margin-left: 3.0%;
+}
+.content .pay .pay_top .radio label{
+	background: url(../img/list.png) no-repeat left;
+}
+.content .pay .pay_top .radio label.on{
+	background: url(../img/list_01.jpg) no-repeat left;
+}
+.content .pay .pay_top .radio input{
+	visibility: hidden;
+}
+.content .pay .pay_top p{
+	float: left;
+	margin-left: 7.0%;
+}
+.content .pay .pay_top p a{
+	color: #666666;
+	text-decoration: none;
+}
+.content .pay .pay_top span{
+	display: block;
+	float: right;
+	margin-right: 20px;
+}
+.content .pay .pay_bottom{
+	clear: both;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666666;
+}
+.content .pay .pay_bottom .pay{
+	width:17%;
+	height: 40px;
+	color: #666666;
+	border: 1px solid #B2B2B2;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin: 21px 21px 20px 0;
+	text-decoration: none;
+}
+.content .pay .pay_bottom .add_car{
+	width:17%;
+	height: 40px;
+	color: #666666;
+	border: 1px solid #B2B2B2;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin: 21px 21px 20px 0;
+	text-decoration: none;
+}
+.content .pay .pay_bottom h1{
+	clear: both;
+	background: url(../img/pay_ok.jpg) left no-repeat;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 25px;
+	margin-top: 22px;
+}
+.content .pay .pay_bottom p{
+	padding-left: 10px;
+	margin: 22px 0 20px;
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 14px;
+}
+.content .pay .pay_bottom li{
+	float: left;
+	width: 41px;
+	height: 38px;
+}
+.content .pay .pay_bottom li input{
+	width: 100%;
+	height: 38px;
+	text-align: center;
+	outline: none;
+}
+.content .pay .pay_bottom span{
+	padding-left: 20px;
+	padding-top: 10px;
+	float: left;
+}
+.content .pay .pay_bottom span a{
+	text-decoration: none;
+	color: #666666;
+}
+.content .pay .pay_bottom .inp_pass{
+	clear: both;
+	padding-top: 12px;
+	font-family: "新宋体";
+	font-size: 12px;
+	padding-left: 0;
+	color: #666666;
+}
+.content .pay .pay_bottom button{
+	color:#FFFFFF;
+	background: #CC6633;
+	width: 10%;
+	font-size: 16px;
+	height: 35px;
+	line-height: 35px;
+	border: none;
+	margin-top: 31px;
+	text-align: center;
+	padding: 0;
+}
+.content .pay .pay_bottom button a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer{
+	margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .content table tbody .goods p a {
+    	letter-spacing: 0;
+    }
+    .content .shop_car table tbody .goods p a {
+    	letter-spacing: 0;
+    }
+    .content .shop_car table th{
+    	font-size: 12px;
+    }
+    .content button {
+    padding-left: 4px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		width: 100%;
+	}
+	.content table tbody .goods p a {
+		padding-top: 0;
+	}
+	.content thead th:first-child {
+   		width: 100px;
+	}
+	.open > .dropdown-menu {
+    	margin-left: 18%;
+    }
+    .content button{
+    	width: 65%;
+    }
+    .content table tbody .goods .goods_text {
+    	float: none;
+    	table-layout: fixed;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+	}
+	.content table tbody .goods img {
+    	float: none;
+	}
+	.content table tbody .goods p {
+    	float: none;
+    	text-align: left;
+    	margin-left: 0;
+    	table-layout: fixed;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+    }
+    .content table tbody .goods p a {
+    	float: none;
+    }
+	
+}
+@media  (min-width: 551px ) and (max-width: 655px){
+	.content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 33.1%;
+	}
+}
+@media (min-width: 320px)  and (max-width: 550px){
+	.content thead th:first-child {
+   		width: 68px;
+	}
+	.content table tbody .goods p a {
+		font-size: 12px;
+	}
+	.content table tbody .goods .goods_text{
+		width: 38px;
+	}
+	.content table tbody .goods p {
+		margin-left: 0;
+	}
+	.content table tbody .goods p span {
+    	display: block;
+    	padding-left: 0;
+	}
+	.content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 28.1%;
+	}
+	.content table tbody .goods img {
+		max-width: 100%;
+	}
+	.content .del a {
+		padding-right: 0;
+	}
+	.content .dropdown span i {
+		border: 5px solid #8a3e26;
+		margin-top: 8px;
+    	margin-left: 2px;
+    	border-color: #FFFFFF transparent transparent transparent;
+	}
+	.content .dropdown .trangle {
+		width: 14px;
+	}
+	.content button {
+		width: 65%;
+		padding-left: 5px;
+		margin-left: 5px;
+	}
+	.open > .dropdown-menu {
+    	margin-left: 22px;
+    }
+}
+@media (min-width: 320px) and (max-width: 420px) {
+	.content button {
+		width: 100%;
+	}
+	.open > .dropdown-menu {
+    	margin-left: 4px;
+    }
+}
+@media only screen and (max-width: 768px) {
+	.content .invoice .inv_way select {
+		width: 16.6%;
+		padding-left: 2%;
+	}
+	.content .invoice .number input {
+    	width: 16.6%;
+	}
+	.content .inv_con .check {
+    	padding-left: 15.1%;
+	}
+	.content .pay .pay_bottom button{
+		width: 17%;
+	}
+	.content .shop_car th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 31.1%;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.content .invoice .inv_way select {
+		width: 22.6%;
+		padding-left: 2%;
+	}
+	.content .invoice .number input {
+    	width: 22.6%;
+	}
+	.content .inv_con .check {
+    	padding-left: 17.1%;
+	}
+}
+@media only screen and (max-width: 440px) {
+	.content .invoice .inv_way select {
+		width: 26.6%;
+		padding-left: 3%;
+	}
+	.content .invoice .number input {
+    	width: 26.6%;
+	}
+	.content .inv_con .check {
+    	padding-left: 21.1%;
+	}
+	.content .invoice .radio label:nth-child(4) {
+    	margin-left: 86px;
+	}
+	.content .invoice .radio label:nth-child(3) {
+   	 	margin-left: 0px; 
+	}
+	.content .invoice .radio label {
+    	margin-left: 11px;
+    }
+}
+@media only screen and (max-width: 380px) {
+	.content .invoice .inv_way select {
+    	width: 32.6%;
+    	padding-left: 3%;
+	}
+	.content .invoice .number input {
+    	width: 32.6%;
+	}	
+	.content .inv_con .check {
+    	padding-left: 25.1%;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.content .inv_con .check {
+    	padding-left: 30.1%;
+	}
+	.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+    	margin-top: 0;
+    	margin-left: 83px;
+	}
+}
+@media only screen and (max-width: 570px) {
+	.content .pay .pay_top p {
+    	float: left;
+    	margin-left: 5%;
+	}
+	.content .pay .pay_bottom .pay {
+    	width: 25%;
+    }
+    .content .pay .pay_bottom .add_car {
+    	width: 25%;
+    }
+}
+@media only screen and (max-width: 401px) {
+	.content .pay .pay_top p {
+    	float: left;
+    	margin-left: 1%;
+	}
+	.content .pay .pay_bottom .pay {
+    	width: 33%;
+    }
+    .content .pay .pay_bottom .add_car {
+    	width: 33%;
+    }
+}
+@media only screen and (max-width: 415px) {
+	.content .pay .pay_bottom span {
+    	padding-left: 10px;
+    }
+    .content .pay .pay_bottom span a{
+    	font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px) {
+	.content .pay .pay_bottom button {
+    	width: 26%;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.content .pay .pay_top p {
+    	float: left;
+	}
+	.content .pay .pay_top {
+		height: 113px;
+	}
+	.content .pay .pay_bottom button {
+    	width: 28%;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+    .content .shop_car th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 19.1%;
+	}
+}
+@media only screen and (max-width: 470px) {
+	.content .count .count-input {
+    	width: 17px;
+    }
+    .content table .count .add, .reduce {
+   	    height: 20px;
+   	 	width: 11px;
+    	border: 1px;
+    }
+}
+@media only screen and (max-width: 380px) {
+	.content .shop_car th:nth-child(1) {
+    	width: 47px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.content .shop_car th:nth-child(1) {
+    	width: 39px;
+	}
+}
+@media only screen and (max-width: 680px) {
+	.content .pay .radio label {
+    	padding-left: 25px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.content .pay .pay_top span {
+    	margin-right: 10px;
+	}
+	.content .pay .pay_top p {
+    	margin-left: 2%;
+	}
+}
+@media only screen and (max-width: 395px) {
+	.content .pay .radio label {
+    	padding-left: 15px;
+	}
+}

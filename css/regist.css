@@ -1,0 +1,186 @@
+.header-center{
+	margin-bottom: 2px;
+}
+.banner{
+	clear: both;
+	background: url(../img/l_banner.jpg) center no-repeat;
+	width: 100%;
+	margin-top: 20px;
+}
+.login{
+	width: 34.99%;
+	background: #FFFFFF;
+	text-align: center;
+	float: right;
+	margin-right: 4.5%;
+	margin-top: 44px;
+	margin-bottom: 25px;
+}
+.login .logo{
+	padding-top: 34px;
+	margin-bottom: 21px;
+}
+.login .form-group{
+	clear: both;
+	overflow: hidden;
+}
+.login label{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+	padding-left: 23px;
+	padding-top: 6px;
+}
+@media (min-width: 1200px){
+    .login .col-lg-4 {
+        width: 28.333333%;
+    }	
+}
+.login .col-lg-8{
+	padding-left: 0;
+}
+.login .form-control{
+	border-radius: 0;
+	height: 30px;
+	padding: 0 8px;
+	outline: none;
+	border-color: #999999;
+}
+.login .form-control:focus {
+  border-color: #999999;
+  box-shadow: none;
+}
+.login .reg_text{
+	padding-left: 0px;
+	
+}
+.login .comm {
+	width: 20.5%;
+	margin-left:18px;
+	padding: 0 8px;
+	outline: none;
+}
+.login span a{
+	text-decoration: none;
+	color: #666666;
+	font-family: "宋体";
+	
+}
+.login .checkbox{
+	margin-left:18px;
+}
+.login .checkbox .check{
+	width: 12px;
+	height: 12px;
+	border-radius: 0;
+	border: #666666;
+}
+.login .checkbox span{
+	font-size: 12px;
+	
+}
+.login .checkbox span a{
+	color: #999999;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.login button{
+	width: 51.55%;
+	background: #cc6633;
+	color: #FFFFFF;
+	border: none;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin-bottom: 20.8%;
+	margin-top: 31px;
+	margin-left: 20px;
+}
+.login button a{
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.login p a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+	float: right;
+	text-decoration: none;
+	padding-right: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.login {
+    	width: 38.99%;
+    	margin-right: 0%;
+    }
+}
+@media only screen and (max-width: 989px) {
+	.login {
+    	width: 54.99%;
+    	margin-right: 0%;
+    }
+}
+@media only screen and (max-width: 760px) {
+	 .login .comm {
+    width: 25.5%;
+    }
+    .login label {
+    	text-align: left;
+    }
+    .login button {
+    	margin-bottom: 10px; 
+    	margin-top: 0px;
+    }
+    .form-group {
+     margin-bottom: 0px; 
+    }
+    .login .form-control{
+    	margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 700px) {
+	.login .reg_text {
+    	width: 100%;
+    	margin-left: 22px;
+    }
+}
+@media (min-width: 320px) and (max-width: 470px) {
+	.login {
+    	width: 99.99%;
+    }
+    .login .comm {
+    width: 25.5%;
+    }
+    .form-group {
+     margin-bottom: 0px; 
+    }
+    .login button {
+    	margin-bottom: 10px; 
+    	margin-top: 0px;
+    }
+    .login .form-control{
+    	margin-left: 25px;
+    }
+    .login .reg_text {
+    	width: 100%;
+    	margin-left: 22px;
+    }
+    .login label {
+    	text-align: left;
+    }
+}
+@media only screen and (max-width: 700px) {
+	.login .reg_text {
+    	width: 93%;
+    	margin-left: 22px;
+	}
+}
+@media only screen and (max-width: 552px) {
+	.login .reg_text {
+    	width: 90%;
+    	margin-left: 22px;
+	}
+}

@@ -1,0 +1,189 @@
+.content{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+.content .location {
+    padding: 45px 0 5px 16px;
+}
+.content .banner_con{
+	width: 100%;
+}
+.content .banner_con img {
+	display: block;
+	max-width: 100%;
+}
+
+.content .contact_text{
+	font-family: "微软雅黑";
+}
+.content .contact_text h1{
+	margin-bottom: 25px;
+}
+.content .contact_text h2{
+	font-size: 20px;
+	color: #cc6633;
+	font-weight: normal;
+	margin-left: -38px;
+	margin-top: 28px;
+	margin-bottom: 52px;
+}
+@media (min-width: 1200px){
+   .content .contact_text  .col-lg-offset-1 {
+    margin-left: 11.333333%;
+    }	
+}
+.content .contact_text p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 52px;
+	letter-spacing: 3px;
+}
+@media (min-width: 768px){
+	.content .contact_text .form-horizontal .control-label{
+		text-align: left;
+	}
+}
+@media (min-width: 1200px){
+	.content .contact_text .col-lg-4 {
+    width: 18.333333%;
+    padding-right: 0;
+   }
+}
+.content .contact_text .control-label{
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.content .contact_text .form-control{
+	height: 26px;
+	outline: none;
+	border-radius: 0px;
+	box-shadow:none;
+	margin-top: 10px;
+}
+.content .contact_text input{
+	width: 100%;
+	margin-bottom: 33px;
+}
+.content .contact_text .form-control:focus {
+  border-color:#cccccc;
+  }
+ .content .contact_text textarea{
+ 	width: 100%;
+ 	resize: none;
+ 	outline: none;
+	border-radius: 0px;
+	box-shadow:none;
+	padding: 0 12px;
+	
+ }
+.content .contact_text label{
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.content .contact_text .comm{
+	width: 20%;
+	margin-left: 33px;
+	outline: none;
+	padding: 0 6px;
+}
+.content .contact_text img{
+	margin: 0 10px;
+}
+.content .contact_text span a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "宋体";
+	color:#666666
+}
+.content .contact_text .submit{
+	width: 27%;
+	background: #CC6633;
+	color: #FFFFFF;
+	border: none;
+	height: 34px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.content .contact_text .reset{
+	width: 27%;
+	background: #CC6633;
+	color: #FFFFFF;
+	border: none;
+	height: 34px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-left: 28%;
+}
+.content .map{
+	width: 80%;
+	margin: 0 auto;
+}
+.footer{
+	margin-top: 130px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.content .container{
+		width: 100%;
+	}
+	.content .location {
+    	background: url(../img/home.png) left 23px no-repeat;
+   		padding: 21px 0 0px 16px;
+    }
+    .content .location p {
+    	font-size: 12px;
+    }
+    .content .contact_text .comm{
+    	width: 100%;
+    }
+    .content .contact_text .comm{
+	   width: 100%;
+	   float: left;
+	   margin-left:0px;
+	}
+	.content .contact_text img{
+	margin: 0 10px 0 159px;
+    }
+    .content .map{
+	width: 100%;
+	margin: 0 auto;
+    }
+   
+}
+@media only screen and (max-width: 900px) {
+	.content .contact_text img{
+		margin: 0 10px 0 89px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	.content .contact_text h1 {
+     margin-bottom: 0px; 
+    text-align: center;
+    margin-top: 0;
+	}
+	.content .contact_text p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+	}
+	.content .contact_text h2{
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.content .contact_text .submit {
+    width: 100%;
+    }
+    .content .contact_text .reset {
+    width: 100%;
+    margin-left: 0;
+    }
+    .content .map {
+    width: 100%;
+    margin: 0 auto;
+    }
+}

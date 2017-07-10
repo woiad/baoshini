@@ -1,0 +1,368 @@
+.header{
+    width:100%;
+}
+
+ .header-top{
+    background:#d8d8d8;
+    height: 28px;
+}
+.header-text{
+	float: left;
+}
+.nav > li > a{
+	padding-top: 0;
+	color: #727272;
+	line-height: 28px;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.header-text .line{
+	height: 12px;
+	border-right: 1px solid #727272;
+	position: absolute;
+	top: 8px;
+	right: 0;
+}
+
+@media (max-width:990px) {
+    .header-center .navbar-collapse .nav li a{
+	    padding: 10px 8px;
+    }	
+}
+.header-right{
+	float: right;
+}
+.header-right li:first-child{
+	background: url(../img/home.png) left center no-repeat;
+	height: 28px;
+	padding-left: 5px;
+}
+.header-right li:first-child + li{
+	background: url(../img/sc.png) left center no-repeat;
+    height: 28px;
+	padding-left: 5px;
+
+}
+/**************************************导航*************************/
+.header-center .navbar{
+	margin-bottom: 14px;
+	position: relative;
+}
+.header-center .navbar-brand{
+	height: 0;
+	padding: 15px 15px 15px 0;
+	position: absolute;
+	left: 10px;
+}
+.header-center ul{
+	float: right;
+	
+}
+.header-center ul .on a{
+	color: #3e1c12;
+}
+.header-center ul .on a span{
+	color: #3e1c12;
+}
+.header-center li{
+	position: relative;
+	margin-left: 8px;
+}
+.header-center .nav li a{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #8a3e26;
+	padding-bottom: 0;
+	margin-top: 21px;
+	text-align: center;
+}
+.header-center li span{
+	display: block;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #bc5230;
+	margin-top: -7px;
+}
+.header-center li span.on{
+	color: #3E1C12;
+}
+.header-center li:hover span{
+	color: #3E1C12;
+}
+.header-center li i{
+	width: 0 ;
+	height: 0;
+	display: none;
+	border: 12px solid #8a3e26;
+	border-color:transparent transparent #8a3e26 transparent;
+	position: absolute;
+	left: 39%;
+	bottom: -14px;
+}
+.header-center li:first-child i{
+	left: 30%;
+}
+.header-center li:hover i{
+	display: block;
+	
+}
+.header-center .navbar-default .navbar-nav li a:hover{
+	color: #3E1C12;
+}
+.header-center .active i{ 
+	display: block;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background: none;
+	color: #3E1C12;
+}
+.header-center .navbar{
+	border: none;
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+    
+  }
+}
+.header-center .navbar-default{
+	background-color:#FFFFFF;
+   border-color:#FFFFFF;
+}
+.carousel-indicators li{
+	border-radius: 0px;
+	width: 42px;
+	background: #ca9b63;
+	border: none;
+	height: 9px;
+}
+.carousel-indicators .active{
+	border-radius: 0px;
+	width: 42px;
+	background: #ffffff;
+	border: none;
+	height: 9px;
+	border: 1px solid #ca9b63;
+}
+.navbar-default .navbar-toggle {
+    margin-top: 34px;
+}
+/**********************位置*******************************/
+.content .location{
+	background: url(../img/home.png) left 50px no-repeat;
+	padding: 45px 0 38px 16px;
+}
+.content .location p{
+	font-family: "宋体";
+	font-size:14px;
+	color: #CC9966;
+}
+.content .location span{
+	color: #CC9966;
+}
+.content .location a{
+	text-decoration: none;
+	color: #CC9966;
+}
+/******************************footer*********************/
+.footer{
+	width: 100%;
+	background: #cc9966;
+	clear: both;
+	overflow: hidden;
+}
+.footer .f_left{
+	clear: both;
+	overflow: hidden;
+	background-color: #8a3e26;
+	font-family: "微软雅黑";
+	margin: 32px 0 27px;
+}
+.footer .f_left h1{
+	font-size: 18px;
+	color: #CC9966;
+	padding-top: 13px;
+	margin: 0 0 10px;
+}
+.footer .f_left span{
+	font-size: 18px;
+	color: #CC9966;
+	float: left;
+	padding-right: 10px;
+}
+.footer .f_left p{
+	font-size: 12px;
+	color: #CC9966;
+	line-height: 19px;
+	margin: 0;
+	clear: both;
+}
+.footer .f_left p:nth-child(5){
+	padding-bottom: 19px;
+}
+.footer .f_right{
+	margin-top: 32px;
+}
+@media (min-width: 1200px){
+    .footer .col-lg-2 {
+    width: 14.666667%;
+}	
+}
+
+.footer .f_right dl{
+	margin-left: 2.27%;
+}
+.footer .f_right dd{
+	list-style: none;
+	clear: both;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+.footer .f_right dt{
+	color: #8f462c;
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+.footer .f_right dt span{
+	display:block;
+	border-bottom: 2px solid #FFFFFF;
+	width: 50%;
+	float: left;
+}
+.footer .f_right dt  i{
+	border-bottom: 2px solid #dbb894;
+	width: 50%;
+	float: right;
+	display: block;
+	opacity: 0.5;
+}
+.footer .f_right dd{
+	font-family: "宋体";
+	font-size: 12px;
+}
+.footer .f_right dd span{
+	padding-left: 7px;
+}
+.footer .f_right dd a{
+	color: #8a3e26;
+	text-decoration: none;
+	line-height: 21px;
+}
+.footer .f_right dl:last-child dt{
+	width: 58%;
+}
+
+.footer .footer_bot{
+	width: 100%;
+	border-top: 1px solid #999999;
+	text-align: center;
+}
+.footer .footer_bot p{
+	color: #8a3e26;
+	font-size: "宋体";
+	font-size: 14px;
+	padding-top: 18px;
+}
+
+/**************************响应***********************************/
+
+@media  (max-width: 768px){
+	.header-right li:first-child{
+		background: none;
+	}
+	.header-right li:first-child + li{
+		background: none;
+	}
+	
+}
+@media  (max-width: 768px){
+	.header-center ul{
+		margin-top: 0px;
+		
+    }
+}
+@media only screen and (max-width: 1200px) {
+	.footer .f_left h1{
+	    font-size: 14px;
+	}
+	.footer .f_right dl{
+		margin-left: 0;
+	}
+	.footer .f_right dt {
+		font-size: 12px;
+	}
+	 .footer .f_right dd span{
+		padding-left: 4px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.footer .f_right dl:last-child dt{
+	    width: 88%;
+    }
+   .footer .col-sm-2{
+   	   padding-left: 0;
+   	   padding-right: 10px;
+   }
+   .footer .f_right dd span{
+	  padding-left: 2px;
+	}
+
+}
+@media only screen and (max-width: 768px){
+	.footer .f_right dt {
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	.footer .f_right dd{
+		text-align: center;
+		font-size: 26px;
+	}
+	.footer .f_right dd span {
+		padding-left: 20px;
+	}
+	.footer .f_right{
+		margin-left: 5px;
+	}
+	.footer .col-xs-6{
+	width: 34.33333%;
+	}
+	.header-center .navbar-collapse .nav li a {
+     padding: 0px 8px; 
+     margin-top: 15px;
+	}
+}
+@media only screen and (max-width: 479px){
+	.footer .f_right  dd {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.footer .f_right dt {
+		font-size: 20px;
+	}
+	.footer .f_right dd span {
+		padding-left: 11px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.header-center ul{
+		margin-top: 57px;
+		float: left;
+    }
+    .header-center li:first-child i {
+    	left: 35%;
+	}
+	.header-center li i{
+		left: 36%;
+	}
+	.header-center li {
+		margin-bottom: 8px;
+	}
+}

@@ -1,0 +1,722 @@
+.content .location{
+    background: none;
+    padding-left:23px ;
+}
+.content .location p{
+	font-family: "宋体";
+	font-size:14px;
+	color: #666666;
+	padding-left: 20px;
+}
+.content .location {
+    padding: 17px 0 18px 16px;
+}
+.content .location span{
+	color: #666666;
+}
+.content .location a{
+	text-decoration: none;
+	color: #666666;
+}
+.content .shop_tittle{
+	clear:both;
+	overflow: hidden;
+    width: 100%;
+}
+.content .shop_tittle ul{
+	width: 100%;
+	clear:both;
+	overflow: hidden;
+	
+}
+.content .shop_tittle ul li{
+	width: 165px;
+	background: #e6e6e6;
+    font-family: "微软雅黑";
+    float: left;
+    text-align: center;
+    height: 35px;
+}
+.content .shop_tittle ul li:last-child a{
+	text-align: center;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+.content .shop_tittle li .centre:before,.shop_tittle li .next:before{
+	content: '';
+	border: 23px solid;
+	width: 0;
+	height: 0;
+	float: left;
+	border-color: transparent transparent transparent #FFFFFF;
+	margin-left: 6px;
+    margin-top: -5px;
+}
+.content .shop_tittle li .centre:after,.shop_tittle li .prev:after{
+content: '';
+border: 24px solid;
+width: 0;
+height: 0;
+float: right;
+margin-right: -34px;
+margin-top: -6px;
+position: relative;
+z-index: 2;
+border-color: transparent transparent transparent #e6e6e6;
+}
+.content .shop_tittle li .centre{
+display: block;
+width: 179px;
+height: 35px;
+text-decoration: none;
+font-family: "微软雅黑";
+font-size: 14px;
+color: #666666;
+line-height: 35px;
+text-align: center;
+background: #e6e6e6;
+
+}
+.prev,.next{
+display: block;
+width:179px;
+height: 35px;
+text-decoration: none;
+font-family: "微软雅黑";
+font-size: 14px;
+color: #666666;
+line-height: 35px;
+text-align: center;
+background: #e6e6e6;
+}
+.prev:hover{
+	color: #666666;
+	text-decoration: none;
+}
+.next{
+	font-weight: bold;
+}
+.next:hover{
+	color: #666666;
+}
+.content .shop_tittle li .on{
+color: #FFFFFF;
+background: #cc6633;
+}
+.content .shop_tittle li .on:after{
+content: '';
+border: 23px solid;
+width: 0;
+height: 0;
+float: right;
+margin-right: -32px;
+margin-top: -5px;
+position: relative;
+z-index: 2;
+border-color: transparent transparent transparent #cc6633;
+}
+.content .shop_tittle li .on{
+	text-decoration: none;
+}
+.content h1{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #666666;
+	width: 100%;
+	border-bottom: 3px solid #c8c6c7;
+	padding-bottom: 7px;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+.content h1 span a{
+	color: #CC6633;
+	font-size: 14px;
+	letter-spacing: 0;
+	float: right;
+	text-decoration: none;
+}
+.content .com_addres h1{
+	font-size: 18px;
+	border: none;
+	margin-bottom: 12px;
+}
+
+.content .com_addres .radio label{
+	font-family: "微软雅黑";
+	width: 100%;
+	color: #666666;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: -5px;
+	background: url(../img/check_box_03.jpg) no-repeat left;
+	margin-bottom: 24px;
+	margin-left: 5px;
+}
+.content .com_addres .radio .on{
+	background: url(../img/check_box_red_03.jpg) no-repeat left;
+}
+.content .com_addres .radio input{
+	visibility: hidden;
+}
+.content .com_addres .radio span{
+	padding-left: 21px;
+}
+.content .new_addres{
+	border: 1px solid #CC6633;
+	margin-bottom: 30px;
+	margin-top: -56px;
+	
+}
+.content .new_addres span{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #666666;
+	padding-left: 21px;
+}
+.content .new_addres form{
+	padding-left: 5.08%;
+	margin-bottom: 30px;
+	margin-top: 25px;
+}
+.content .new_addres i{
+	color: #cc6633;
+	margin-right: 5px;
+} 
+.content .new_addres .dropdown-menu > li > a {
+    padding: 3px 10px;
+}
+.content .new_addres .dropup, .dropdown{
+	width: 18%;
+	float: left;
+}
+.content .new_addres button {
+    border-color: #999999;
+    width: 60%;
+    text-align: left;
+    background: #FFFFFF;
+	border-radius: 0;
+	padding:0 0 0 0;
+	 padding-left: 14%;
+	 outline: none;
+}
+.content .new_addres .open > .dropdown-menu{
+	margin-left: 0;
+	min-width: 60%;
+	border-radius: 0;
+	margin-top: 0;
+	text-align: center;
+}
+.content .new_addres .dropdown span i{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 8px solid #8a3e26;
+	border-color:#8d8d8d transparent transparent transparent;
+	margin-top: 6px;
+    margin-left: -18px;
+}
+
+.content .new_addres .dropdown .trangle {
+    width: 24px;
+    height: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 0px;
+    border: 1px solid #999999;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+.content .new_addres p{
+	float: left;
+}
+.content .new_addres label{
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.content .new_addres form input{
+	width: 34.92%;
+	text-align: center;
+	padding: 0 8px;
+	outline: none;
+}
+.content .new_addres .addres_d{
+	clear: both;
+	float: left;
+	
+}
+.content .new_addres textarea{
+	width: 39.4%;
+	resize: none;
+	padding: 0 8px;
+	margin-top: 5px;
+	height: 66px;
+	float: left;
+	outline: none;
+}
+.content .new_addres .cont{
+	clear: both;
+	overflow: hidden;
+	padding-top: 30px;
+}
+.content .new_addres .cont input{
+	width: 9.41%;
+	margin-right: 6%;
+	text-align: left;
+	padding: 0 8px;
+	outline: none;
+}
+.content .new_addres .submit{
+	width: 7.666%;
+	height: 35px;
+	background: #CC6633;
+	color: #FFFFFF;
+	border: none;
+	margin-left: 8.8%;
+	margin-top: 20px;
+	margin-right: 16px;
+	outline: none;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.content .new_addres .reset{
+	width: 7.666%;
+	height: 35px;
+	background: #FFFFFF;
+	color: #cc6633;
+	border: 1px solid #CC6633;
+	outline: none;
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.content table{
+	width: 100%;
+	font-family: "微软雅黑";
+	text-align: center;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content thead{
+	border-bottom: 1px solid #999999;
+	width: 100%;
+	color: #666666;
+	height: 36px;
+}
+.content thead th{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 36px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content thead th:last-child{
+	text-align: center;
+}
+.content table td{
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content th:first-child{
+	padding-left: 62px;
+	width: 42.1%;
+}
+.content th:nth-child(4) {
+    width: 13%;
+}
+.content table tbody .goods{
+	padding-top: 23px;
+}
+.content table tbody .goods img{
+		display: block;
+		float: left;
+}
+.content table tbody .goods .goods_text{
+	float: left;
+}
+.content table tbody .goods p a{
+
+	float: left;
+	font-size: 16px;
+	color: #CC6633;
+	font-weight: normal;
+	padding-top: 28px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	
+}
+.content table tbody .goods p{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+}
+.content table tbody .goods p span{
+	padding-left: 35px;
+}
+.content table .count .add,
+ .reduce{
+	height: 20px;
+	width: 17px;
+	border: 1px solid #bababa;
+	color: #666666;
+	text-align: center;
+	line-height: 18px;
+	display: block;
+	float: left;
+	margin-right: -1px;
+	cursor: pointer;
+	background: #e6e6e6;
+}
+.content .count .count-input{
+	float: left;
+	width: 22px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #bababa;
+	line-height: 15px;
+}
+.content table .dropdown .trangle{
+	width: 24px;
+    height: 20px;
+    background: #cc6633;
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+.content table .dropdown{
+	width: 100%;
+}
+.content table .dropdown-menu > li > a {
+    padding: 3px 10px;
+}
+.content table .open > .dropdown-menu{
+	margin-left: 18%;
+	min-width: 65%;
+	border-radius: 0;
+	margin-top: 0;
+	text-align: center;
+}
+.content table .dropdown span i{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 7px solid #8a3e26;
+	border-color:#FFFFFF transparent transparent transparent;
+	margin-top: 8px;
+    margin-left: 6px;
+}
+.content .dropdown .btn{
+	position: relative;
+}
+.content table button{
+	border-color: #cc6633;
+	width: 65%;
+	background: #FFFFFF;
+	border-radius: 0;
+	padding:0 0 0 0;
+	text-align: left;
+	padding-left: 11%;
+}
+.content .tak_goods{
+	width: 13.166%;
+	height: 35px;
+	background: #CC6633;
+	color: #FFFFFF;
+	border: none;
+	float: right;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+.footer{
+	margin-top: 100px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	
+    .content table tbody .goods p a {
+    	letter-spacing: 0;
+	}
+    .content table th{
+    	font-size: 12px;
+    }
+    .content table button {
+    	padding-left: 4px;
+	}
+    
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		width: 100%;
+	}
+	.content table tbody .goods p a{
+		padding-top: 0;
+	}
+	.content thead th:first-child {
+   		width: 100px;
+	}
+    .content button{
+    	width: 65%;
+    }
+    .content .tak_goods{
+    	width: 16.16%;
+    }
+    .content table tbody .goods {
+		table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.content table tbody .goods img {
+    	float: none;
+	}
+	.content table tbody .goods .goods_text {
+    	float: none;
+    	table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.content table tbody .goods p {
+    	float: none;
+    	margin-left: 0px;
+    	table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.content table tbody .goods p a {
+    	float: none;
+    	table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+    }
+    .content table tbody .goods p a {
+		padding-top: 0;
+	}
+	.content table tbody .goods p span {
+    	padding-left: 0px;
+    	display: block;
+	}
+	.content .location {
+    	padding: 25px 0 18px 16px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+    .content .shop_tittle ul li:first-child i{
+    	right: -21.0%;
+    }
+    .content .shop_tittle ul li:nth-child(1) span {
+    	right: -11.0%;
+	}
+	.content table button{
+		width: 100%;
+		padding-left: 13%;
+	}
+	.content table .open > .dropdown-menu {
+    	 margin-left: 0; 
+    	min-width: 100%;
+    }
+    .content .new_addres .submit {
+    	width: 10.666%;
+    	font-size: 14px;
+    }
+    .content .new_addres .reset {
+    	width: 10.666%;
+    	font-size: 14px;
+    }
+    .content .tak_goods {
+    	font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 947px) {
+	.content .new_addres .dropup, .dropdown {
+    	width: 22%;
+    	float: left;
+	}
+	.content .new_addres form input {
+    	width: 51.92%;
+    }
+    .content .new_addres .cont input {
+    	width: 16.41%;
+    }
+    .content .new_addres button {
+    	padding-left: 9%;
+    }
+	
+}
+@media only screen and (max-width: 768px) {
+	.content .new_addres .dropup, .dropdown {
+    	width: 43%;
+    	float: left;
+    	margin-top: 10px;
+	}
+	.content .new_addres p{
+		margin:0;
+		margin-top: 10px;
+	}
+	.content .new_addres .input-group{
+		padding-top: 10px;
+	}
+	.content .new_addres .zone{
+		padding-left: 10px;
+	}
+	
+	.content .new_addres .cont input{
+		width: 16.41%;
+	}
+	.content table tbody .goods p a{
+		display: block;
+		padding-left: 0;
+	}
+	.content .tak_goods {
+    	width: 20.166%;
+    }
+}
+@media only screen and (max-width: 670px) {
+	.content .new_addres .cont input {
+    	width: 94.41%;
+	}
+	.content .new_addres .submit {
+    	width: 15.666%;
+    }
+    .content .new_addres .reset {
+    	width: 15.666%;
+    }
+}
+@media only screen and (max-width: 540px) {
+	.content .new_addres .dropup, .dropdown {
+    	width: 42%;
+    }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+	.content .new_addres button {
+    	width: 74%;
+   }
+   .content .com_addres .radio label {
+   		font-size: 12px;
+   }
+   .content .new_addres .dropup, .dropdown {
+    	width: 37%;
+	}
+	.content .new_addres button {
+    	padding-left: 0%;
+	}
+	.content .new_addres form input {
+    	width: 55.92%;
+	}
+	.content .new_addres textarea {
+    	width: 64.4%;
+    }
+}
+@media (min-width: 401px) and (max-width:500px) {
+	.content .new_addres .dropup, .dropdown {
+    	width: 40%;
+	}
+	.content .new_addres textarea {
+    	width: 56.4%;
+    }
+}
+@media only screen and (max-width: 470px) {
+	.content .tak_goods {
+    	width: 26.166%;
+	}
+}
+@media only screen and (max-width: 350px) {
+	.content .tak_goods {
+    	width: 32.166%;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.content table button {
+    	width: 100%;
+    	padding-left: 5%;
+	}
+	.content table .dropdown .trangle {
+    	width: 15px;
+    	height: 20px;
+    }
+    .content table .dropdown span i {
+    	border: 5px solid #8a3e26;
+    	margin-left: 3px;
+    	border-color: #FFFFFF transparent transparent transparent;
+    }
+}
+@media only screen and (max-width: 450px) {
+	.content .count .count-input {
+    	width: 17px;
+    }
+    .content table .count .add, .reduce {
+   	    height: 20px;
+   	 	width: 11px;
+    	border: 1px;
+    }
+}
+@media only screen and  (max-width: 700px) {
+	.content .shop_tittle ul li{
+		float: none;
+		margin-top: 10px;
+	}
+	.content .shop_tittle li .centre:before, .shop_tittle li .next:before {
+	    content: '';
+	    border: 23px solid;
+	    width: 0;
+	    height: 0;
+	    float: left;
+	    border-color: transparent transparent transparent #FFFFFF;
+	    margin-left: -7px;
+	    margin-top: -5px;
+	}
+	.content .shop_tittle li .centre:after, .shop_tittle li .prev:after {
+	    content: '';
+	    border: 18px solid;
+	    width: 0;
+	    height: 0;
+	    float: right;
+	    margin-right: -35px;
+	    margin-top: 0px;
+	    position: relative;
+	    z-index: 2;
+	    border-color: transparent transparent transparent #e6e6e6;
+	}
+	.content .shop_tittle li .on:after {
+	    content: '';
+	    border: 17px solid;
+	    width: 0;
+	    height: 0;
+	    float: right;
+	    margin-right: -34px;
+	    margin-top: 0px;
+	    position: relative;
+	    z-index: 2;
+	    border-color: transparent transparent transparent #cc6633;
+	}
+	.content .shop_tittle li .centre:hover:after,.shop_tittle li .prev:hover:after{
+		content: '';
+		border: 17px solid;
+		width: 0;
+		height: 0;
+		float: right;
+		margin-right: -34px;
+		margin-top: 0px;
+		position: relative;
+		z-index: 2;
+		border-color: transparent transparent transparent #cc6633;
+	}
+}

@@ -1,0 +1,604 @@
+.content .location{
+    background: none;
+    padding-left:23px ;
+}
+.content .location p{
+	font-family: "宋体";
+	font-size:14px;
+	color: #666666;
+	padding-left: 20px;
+}
+.content .location {
+    padding: 17px 0 18px 16px;
+}
+.content .location span{
+	color: #666666;
+}
+.content .location a{
+	text-decoration: none;
+	color: #666666;
+}
+.content .shop_tittle{
+	clear:both;
+	overflow: hidden;
+    width: 100%;
+}
+.content .shop_tittle ul{
+	clear:both;
+	overflow: hidden;
+	width: 100%;
+	
+}
+.content .shop_tittle ul li{
+	width: 165px;
+	background: #e6e6e6;
+    font-family: "微软雅黑";
+    float: left;
+    text-align: center;
+    height: 35px;
+}
+.content .shop_tittle ul li:last-child a{
+	text-align: center;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+.content .shop_tittle li .centre:before,.shop_tittle li .next:before{
+	content: '';
+	border: 23px solid;
+	width: 0;
+	height: 0;
+	float: left;
+	border-color: transparent transparent transparent #FFFFFF;
+	margin-left: 6px;
+    margin-top: -5px;
+}
+.content .shop_tittle li .centre:after,.shop_tittle li .prev:after{
+content: '';
+border: 24px solid;
+width: 0;
+height: 0;
+float: right;
+margin-right: -34px;
+margin-top: -6px;
+position: relative;
+z-index: 2;
+border-color: transparent transparent transparent #e6e6e6;
+}
+.content .shop_tittle li .centre{
+display: block;
+width: 179px;
+height: 35px;
+text-decoration: none;
+font-family: "微软雅黑";
+font-size: 14px;
+color: #666666;
+line-height: 35px;
+text-align: center;
+background: #e6e6e6;
+
+}
+.prev,.next{
+display: block;
+width:179px;
+height: 35px;
+text-decoration: none;
+font-family: "微软雅黑";
+font-size: 14px;
+color: #666666;
+line-height: 35px;
+text-align: center;
+background: #e6e6e6;
+}
+.next{
+	font-weight: bold;
+}
+.content .shop_tittle li .on{
+color: #FFFFFF;
+background: #cc6633;
+}
+.content .shop_tittle li .on:after{
+content: '';
+border: 23px solid;
+width: 0;
+height: 0;
+float: right;
+margin-right: -32px;
+margin-top: -5px;
+position: relative;
+z-index: 2;
+border-color: transparent transparent transparent #cc6633;
+}
+.next:hover{
+	color: #666666;
+}
+.content .shop_tittle li .on{
+	text-decoration: none;
+}
+.content h1{
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #666666;
+	width: 100%;
+	border-bottom: 3px solid #c8c6c7;
+	padding-bottom: 7px;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+.content table{
+	width: 100%;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #999999;
+	text-align: center;
+	table-layout:fixed;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content thead{
+	border-bottom: 1px solid #999999;
+	width: 100%;
+	color: #666666;
+	height: 36px;
+	text-align: center;
+}
+.content thead th{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 36px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content th:nth-child(2){
+	padding-left: 18px;
+	width: 42.1%;
+}
+.content th:nth-child(5){
+	width: 13%;
+}
+.content th:nth-child(1){
+	width: 77px;
+}
+label.c-checkbox {
+	background: url(../img/inpt.jpg) no-repeat left center;
+	display: inline;
+	margin-left: 13px;
+	font-weight: normal;
+	cursor: pointer;
+}
+label.c-checkbox.on{
+	background: url(../img/true.jpg) no-repeat left center;
+}
+label.c-checkbox i{
+	font-style: normal;
+	padding-left: 19px;
+	letter-spacing: 1px;
+}
+.content th  {
+	font-style: normal;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666666;
+}
+.content td .c-checkbox{
+	padding-right: 64px;
+}
+
+.content table td{
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content table .c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.content table tbody .goods{
+	padding-top: 23px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content table tbody .goods img{
+		display: block;
+		float: left;
+}
+.content table tbody .goods .goods_text{
+	float: left;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content table tbody .goods p a{
+
+	float: left;
+	font-size: 16px;
+	color: #CC6633;
+	font-weight: normal;
+	padding-top: 28px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+.content table tbody .goods p{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content table tbody .goods p span{
+	padding-left: 35px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content table .count .add,
+ .reduce{
+	height: 20px;
+	width: 17px;
+	border: 1px solid #bababa;
+	color: #666666;
+	text-align: center;
+	line-height: 18px;
+	display: block;
+	float: left;
+	margin-right: -1px;
+	cursor: pointer;
+	background: #E6E6E6;
+}
+.content .count .count-input{
+	float: left;
+	width: 22px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #bababa;
+	line-height: 15px;
+	outline: none;
+}
+.content .dropdown .btn{
+	position: relative;
+}
+.content .dropdown .trangle{
+	width: 24px;
+    height: 20px;
+    background: #cc6633;
+    position: absolute;
+    right: 0;
+    top: 0%;
+}
+.content .dropdown-menu > li > a {
+    padding: 3px 10px;
+}
+.open > .dropdown-menu{
+	margin-left: 28px;
+	min-width: 64%;
+	border-radius: 0;
+	margin-top: 0;
+	text-align: center;
+}
+.content .dropdown span i{
+	width: 0;
+	height: 0;
+	display: block;
+	border: 7px solid #8a3e26;
+	border-color:#FFFFFF transparent transparent transparent;
+	margin-top: 8px;
+    margin-left: 6px;
+}
+.content button{
+	border-color: #cc6633;
+	background: #FFFFFF;
+	border-radius: 0;
+	padding:0 0 0 0;
+	width: 63%;
+    text-align: left;
+    padding-left: 18px;
+}
+.content button span i{
+	width: 0 ;
+	height: 0;
+	display: none;
+	border: 10px solid #8a3e26;
+	border-color:transparent transparent #000000 transparent;
+}
+.content .del a{
+	text-decoration: none;
+	color: #666666;
+	padding-right: 30px;
+}
+/*************************** total **********************/
+.content .total{
+	float: right;
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 14px;
+	margin-top: 15PX;
+	margin-right: 21px;
+	letter-spacing: 2px;
+}
+.content .total span{
+	color: #ff0000;
+}
+.content  .account{
+	clear: both;
+	float: right;
+	width: 13.166%;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	border: 1px solid #CC6633;
+	margin-top: 10px;
+	background: #CC6633;
+}
+.content  .stro{
+	float: right;
+	width: 13.166%;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	border: 1px solid #CC6633;
+	margin-top: 10px;
+	margin-right: 10px;	
+}
+.content  .stro a{
+	color: #CC6633;
+	text-decoration: none;
+	display: block;
+}
+.content  .account a{
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+}
+.footer{
+	margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	
+    .content table tbody .goods p a {
+    	letter-spacing: 0;
+    }
+    .content table th{
+    	font-size: 12px;
+    }
+    .content button {
+    	padding-left: 4px;
+	}
+	label.c-checkbox {
+		padding-bottom: 1px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.container{
+		width: 100%;
+	}
+	.content table tbody .goods p a {
+		padding-top: 0;
+	}
+	.content thead th:first-child {
+   		width: 100px;
+	}
+	.open > .dropdown-menu {
+    	margin-left: 18%;
+    }
+    .content button{
+    	width: 65%;
+    }
+	.content table th {
+		fonr-size:12px;
+		overflow:hidden;
+		white-space:nowrap;
+		text-overflow:elipsis;
+	}
+    .content table td{font-size:12px;overflow:hidden;white-space:nowrap;text-overflow:elipsis;
+	}
+	.content .location {
+    	padding: 25px 0 18px 16px;
+	}
+}
+@media only screen and (max-width: 871px) {
+	
+}
+@media  (min-width: 551px ) and (max-width: 655px){
+	.content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 33.1%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.content table tbody .goods p{
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.content .shop_tittle ul {
+    	width:100%;
+    }
+    
+    .content .shop_tittle ul li:first-child i{
+    	right: -21.0%;
+    }
+    .content .shop_tittle ul li:nth-child(1) span {
+    	right: -11.0%;
+	}
+	.content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 31.1%;
+	}
+	.content button {
+    	padding-left: 1px;
+    	width: 100%;
+	}
+	.content .dropdown .trangle {
+    	width: 15px;
+    	height: 20px;
+    }
+    .content .dropdown span i {
+    	border: 5px solid #8a3e26;
+    	margin-left: 3px;
+    	border-color: #FFFFFF transparent transparent transparent;
+    }
+    .open > .dropdown-menu {
+    margin-left: 0%;
+    min-width: 100%;
+	}
+    .content table tbody .goods img {
+    	float: none;
+	}
+	.content table tbody .goods .goods_text {
+    	float: none;
+    }
+    .content table tbody .goods p a {
+    	float: none;
+    }
+    .content table tbody .goods p {
+    	float: none;
+    	text-align: left;
+    }
+    .content table tbody .goods p span {
+    	display: block;
+    	padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 19.1%;
+	}
+}
+@media (min-width: 320px)  and (max-width: 550px){
+	.content table tbody .goods p a {
+		font-size: 12px;
+	}
+	.content table tbody .goods .goods_text{
+		width: 38px;
+	}
+	.content table tbody .goods p {
+		margin-left: 0;
+	}
+	.content table tbody .goods p span {
+    	display: block;
+    	padding-left: 0;
+	}
+	.content table tbody .goods img {
+		max-width: 100%;
+	}
+	.content .del a {
+		padding-right: 0;
+	}
+}
+@media (min-width: 320px) and (max-width: 420px) {
+	.content button {
+		width: 100%;
+	}
+	.open > .dropdown-menu {
+    	margin-left: 4px;
+    }
+}
+@media only screen and (max-width: 500px) {
+	.content .account {
+		width: 23.166%;
+	}
+	.content .stro {
+		width: 23.166%;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.content thead th:first-child {
+    	width: 45px;
+	}
+	.content thead th{
+		font-size: 12px;
+	}
+	.content th:nth-child(2) {
+    	padding-left: 18px;
+    	width: 15.1%;
+	}
+	.content .count .count-input {
+    	width: 17px;
+    }
+    .content table .count .add, .reduce {
+   	    height: 20px;
+   	 	width: 11px;
+    	border: 1px;
+    }
+    .content table .c-checkbox span {
+    	width: 12px;
+    	height: 12px;
+    }
+    .content table .c-checkbox input:checked + span:after {
+    top: -3px;
+    width: 6px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    }
+}
+@media only screen and  (max-width: 700px) {
+	.content .shop_tittle ul li{
+		float: none;
+		margin-top: 10px;
+	}
+	.content .shop_tittle li .centre:before, .shop_tittle li .next:before {
+	    content: '';
+	    border: 23px solid;
+	    width: 0;
+	    height: 0;
+	    float: left;
+	    border-color: transparent transparent transparent #FFFFFF;
+	    margin-left: -7px;
+	    margin-top: -5px;
+	}
+	.content .shop_tittle li .centre:after, .shop_tittle li .prev:after {
+	    content: '';
+	    border: 18px solid;
+	    width: 0;
+	    height: 0;
+	    float: right;
+	    margin-right: -35px;
+	    margin-top: 0px;
+	    position: relative;
+	    z-index: 2;
+	    border-color: transparent transparent transparent #e6e6e6;
+	}
+	.content .shop_tittle li .on:after {
+	    content: '';
+	    border: 17px solid;
+	    width: 0;
+	    height: 0;
+	    float: right;
+	    margin-right: -34px;
+	    margin-top: 0px;
+	    position: relative;
+	    z-index: 2;
+	    border-color: transparent transparent transparent #cc6633;
+	}
+	.content .shop_tittle li .centre:hover:after,.shop_tittle li .prev:hover:after{
+		content: '';
+		border: 17px solid;
+		width: 0;
+		height: 0;
+		float: right;
+		margin-right: -34px;
+		margin-top: 0px;
+		position: relative;
+		z-index: 2;
+		border-color: transparent transparent transparent #cc6633;
+	}
+}

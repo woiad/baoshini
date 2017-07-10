@@ -1,0 +1,446 @@
+.content{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+.content .banner_con{
+	width: 100%;
+}
+.content .banner_con img {
+	display: block;
+	max-width: 100%;
+}
+.content .location {
+    padding: 45px 0 28px 16px;
+}
+.content .caption{
+	width: 100%;
+	text-align: center;
+	color: #333333;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	margin-bottom: 41px;
+}
+.content .row ul{
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.content .row li{
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.content .row  .sta p{
+	background: url(../img/start.png) left no-repeat;
+	
+}
+.content .row  .sta p a{
+	padding-left: 15px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+@media (min-width: 1200px){
+   .content .col-lg-4 {
+    width: 30.333333%;
+   }	
+}
+.content table{
+	width: 100%;
+	margin-top: 26px;
+	margin-left: 40px;
+}
+.content table td {
+	font-size: 14px;
+	font-family: "宋体";
+	color: #666666;
+	padding-bottom: 8px;
+}
+.content table td .btn{
+	padding: 0;
+	border: none;
+	background: #fff;
+	outline: none;
+}
+.content table td dd{
+	float: left;
+	width: 25px;
+}
+.content table td.selected p{
+	float: left;
+}
+.content table td.selected span{
+	border: none;
+	padding: 0;
+	border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 7px dashed;
+    margin-left: -6px;
+}
+.content table td.selected  ul {
+    margin-left: 0px; 
+    margin-top: 0px;
+}
+.content table td.selected .dropdown-menu{
+	max-width: 43px;
+	text-align: center;
+	border-radius: 0;
+	box-shadow: 0;
+	top: 94%;
+	min-width: 47px;
+	
+}
+.content table td.selected .dropdown-menu > li > a{
+	padding: 3px 0 0 3px;
+}
+.content table td.selected  .dropdown {
+    width: 10%;
+    float: left;
+    margin-left: 10px;
+    margin-top: -2px;
+    margin-right: 10px
+}
+.content table td a{
+	text-decoration: none;
+	color: #666666;
+}
+.content table td i{
+	font-style: normal;
+	border: 1px solid #bcbcbc;
+	padding: 5px 9px;
+}
+.content table td span{
+	border: 1px solid #999999;
+	padding: 4px 8px;
+}
+.content table .color span:hover{
+	border-color: #cc9966;
+}
+.content table td .active{
+	border-color: #cc9966;
+}
+.content table  .size i:hover{
+	border-color: #cc9966;
+}
+.content .buy{
+	position: relative;
+	margin-bottom: 18px;
+	margin-left: 40px;
+}
+.content .buy p{
+	float: left;
+	font-size: 14px;
+	font-family: "宋体";
+	color: #666666;
+}
+.content .buy p:last-child{
+	margin-left: 40px;
+}
+.content .buy .input-group{
+	width: 15%;
+	outline: none;
+}
+.content .buy .input-group .form-control{
+	height:22px;
+	line-height: 22px;
+	padding: 0 6px;
+	text-align: center;
+	background: transparent;
+	outline: none;
+}
+.content .buy .input-group  .btn{
+	border-radius: 0;
+	padding: 0 3px;
+	outline: none;
+	background: #e6e6e6;
+}
+.content .buy .input-group .form-control:focus{
+	border-color: #FFFFFF;
+}
+.content .buy i{
+	display: block;
+	position: absolute;
+	left: 117px;
+	font-family: "宋体";
+	font-style: normal;
+	font-size: 11px;
+	top: 20%;
+	}
+.content .pro_text p .btn-primary{
+	border-radius: 0;
+	border: 1px solid  #cc9966;
+	background: #FFFFFF;
+	margin-left: 40px;
+}
+.content .pro_text p a{
+	color: #cc6633;
+	font-family: "微软雅黑";
+	font-size: 19px;
+	margin-right: 15px;
+	
+}
+.content .pro_text p .btn-default{
+	border-radius: 0;
+	background: #cc6633;
+	border: none;
+}
+.content .pro_text p i{
+	font-style: normal;
+	color: #FFFFFF;
+}
+.content .pro_text .glyphicon-shopping-cart{
+	color: #FFFFFF;
+}
+.content .swich_top{
+	clear: both;
+	overflow: hidden;
+}
+.content .swich_top ul{
+	width: 92%;
+	clear: both;
+	overflow: hidden;
+	margin: 0;
+}
+.content .swich_top li{
+	float: left;
+	width: 10.7%;
+	border-top: 1px solid #b0b0b0;
+	border-left: 1px solid #b0b0b0;
+	border-right: 1px solid #b0b0b0;
+	text-align: center;
+	margin: 0;
+	line-height: 46px;
+}
+.content .swich_top li a{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666666;
+	text-decoration: none;
+	display: block;
+	height: 46px;
+	line-height: 46px;
+}
+.content .swich_top .on a{
+	color: #CC6633;
+	border-bottom: 1px solid #CC9966;
+	display: block;
+	height: 46px;
+	line-height: 46px;
+}
+.content .swich_top li a:hover{
+	color: #cc6633;
+	border-bottom: 1px solid #CC9966;
+}
+	width: 92%;
+.content .swich_con{
+	clear: both;
+	overflow: hidden;
+	border: 1px solid #b0b0b0;
+}
+	font-family: "微软雅黑";
+.content .swich_con dd{
+	font-size: 14px;
+	color: #666666;
+}
+.content .swich_con ul{
+	border: 1px solid #999999;
+	margin-left: 0;
+	margin-top: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.content .swich_con li.on{
+	display: block;
+}
+.content .swich_con li{
+	display: none;
+}
+.content .swich_con li dd{
+	font-family: "微软雅黑";
+	color: #666666;
+	font-size: 14px;
+}
+.content .swich_con .img-responsive{
+	padding: 21px 0 0 27px;
+}
+.content .swich_con .col-lg-3{
+	padding-left: 4.6%;
+	padding-right: 0;
+	padding-top: 24px;
+}
+.content .disc{
+	clear: both;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	margin-top: 60px;
+}
+.content .disc h1{
+	float: left;
+	font-weight: normal;
+	font-size: 14px;
+	color: #666666;
+	background: url(../img/discution.jpg) left no-repeat;
+	padding-left: 18px;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.content .disc p{
+	float: right;
+}
+.content .disc p a{
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+}
+.content .disc p i{
+	color: #ff0000;
+	font-style: normal;
+}
+.content .disc textarea{
+	clear: both;
+	resize: none;
+	width: 100%;
+	outline: none;
+	padding: 0 8px;
+	height: 79px;
+}
+.content .disc label{
+	font-size: 12px;
+	color: #666666;
+}
+.content .disc input {
+	outline: none;
+	padding: 0 8px;
+	margin-right: 6.1%;
+	margin-top: 8px;
+	height: 24px;
+}
+.content .disc button{
+	float: right;
+	padding: 0 5px;
+	margin-top: 8px
+	
+}
+.footer{
+	margin-top: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+	.content .container{
+		width: 100%;
+	}
+	.content .location {
+    	background: url(../img/home.png) left 23px no-repeat;
+   		padding: 21px 0 0px 16px;
+    }
+    .content .location p {
+    	font-size: 12px;
+    }
+    .content .row li{
+    	margin-left: 0;
+    }
+    .content .swich_top ul{
+    	margin: 0 auto;
+    }
+    .content .swich_con{
+    	margin: 0 auto;
+    }
+    .content .swich_con .img-responsive {
+    padding: 21px 10px 0 10px;
+    }
+    .content .disc label{
+    	margin-top: 20px;
+    }
+    .content .disc button {
+    margin-top: 21px;
+    height: 40px;
+    }
+    .content .disc button{
+    	width: 100%;
+    }
+    .content .disc label{
+    	width: 100%;
+    }
+    .content .disc input{
+    	width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+	.content table {
+    	margin-left: 20px;
+	}
+	.content .buy {
+    	margin-left: 20px;
+	}
+	.content .pro_text p .btn-primary {
+    margin-left: 20px;
+	}
+	.content .buy .input-group {
+    	width: 22%;
+    	outline: none;
+	}
+}
+@media (min-width: 320px) and (max-width: 470px){
+	.content .buy .input-group .form-control{
+		width: 32px;
+	}
+}
+@media (min-width: 320px) and (max-width: 350px){
+	.content .pro_text p a {
+		font-size: 16px;
+	}
+	
+}
+@media only screen and (max-width: 900px){
+	.content .swich_top li{
+		width: 16.7%;
+	}
+}
+@media only screen and (max-width: 641px){
+	.content .swich_top li{
+		width: 16.7%;
+	}
+	.content .swich_top li a{
+		font-size: 12px;
+	}
+}
+@media (min-width: 320px) and (max-width: 400px){
+	.content .swich_top li{
+		width: 21.7%;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.content .disc{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 768px ) {
+	.col-xs-12{
+		text-align: center;
+	}
+	.content .buy .input-group {
+    	width: 11%;
+    	outline: none;
+	}
+}
+@media only screen and (max-width: 678px) {
+	.content .buy .input-group {
+    	width: 13%;
+    	outline: none;
+	}
+}
+@media only screen and (max-width: 370px) {
+	.content .pro_text p .btn-primary{
+		font-size: 12px;
+	}
+	.content .pro_text .btn {
+    	padding: 6px 4px;
+    }
+}

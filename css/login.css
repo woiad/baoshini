@@ -1,0 +1,222 @@
+.header-center{
+	margin-bottom: 2px;
+}
+.banner{
+	clear: both;
+	background: url(../img/l_banner.jpg) center no-repeat;
+	width: 100%;
+}
+.login{
+	width: 32.99%;
+	background: #FFFFFF;
+	text-align: center;
+	float: right;
+	margin-right: 6.999%;
+	margin-top: 44px;
+	margin-bottom: 25px;
+}
+.login .logo{
+	padding-top: 66px;
+	margin-bottom: 51px;
+}
+.login .form-group{
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+.login label{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #666666;
+	font-weight: normal;
+	padding-left: 23px;
+	padding-top: 6px;
+}
+.login  .c-checkbox{
+	cursor: pointer;
+	padding-bottom: 9px;
+	text-align: left;
+	padding-left: 0;
+}
+.login  .c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.login  .c-checkbox span{
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 17px;
+	border: 1px solid #999999;		
+	top: 12px;
+}
+.login  .c-checkbox input:checked + span:after{
+	position: absolute;
+	display: block;
+	left: 4px;
+	top: -5px;
+	width: 10px;
+	height: 16px;
+	border: solid red;
+	border-width: 0 4px 4px 0;
+	transform: rotate(35deg);
+	content: "";
+}
+@media (min-width: 1200px){
+    .login .col-lg-4 {
+        width: 28.333333%;
+    }	
+}
+
+.login .form-control{
+	border-radius: 0;
+	height: 40px;
+	padding: 0 8px;
+	outline: none;
+	border-color: #666666;
+}
+.login .form-control:focus {
+  border-color: #666666;
+  box-shadow: none;
+}
+@media (min-width: 1200px){
+   .login .col-lg-8 {
+    width: 46.666667%;
+    padding: 0;
+   }	
+}
+ .login span img{
+ 	display: block;
+ 	position: absolute;
+ 	top: 7px;
+ 	right: -10.4%;
+ }
+.login .c-checkbox i{
+	padding-left: 9px;
+	font-family: "宋体";
+	color:#000000;
+	font-size:12px;
+	letter-spacing: 3px;
+	font-style: normal;
+	padding-left: 30px;
+}
+.login .checkbox a{
+	color: #fb3700;
+	float: right;
+	font-size:12px;
+	margin-right:15%;
+	margin-top: 10px;
+	display: block;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+.login .btn{
+	width: 58.2%;
+	height: 35px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #FFFFFF;
+	text-align: center;
+	background: #cc9966;
+	border: none;
+	border-radius: 0;
+	margin: 14px 0 30px 0;
+	outline: none;	
+}
+.login  dl dt{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	margin-left: 27.2%;
+	float: left;
+	margin-right: 15px;
+	letter-spacing: 2px;
+	margin-top: 8px;
+}
+.login dd{
+	float: left;
+	margin-right:10px ;
+}
+.login .regist{
+	clear: both;
+	overflow: hidden;
+	padding-top:37px;
+	padding-bottom: 70px;
+	letter-spacing: 5px;
+}
+.login .regist a{
+	color: #cc6633;
+	font-size: 14px;
+	font-family: "宋体";
+	height: 13px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.login .form-control {
+		width: 93%;
+    	margin-left: 10px;
+	}
+	.login dl dt{
+		margin-left: 30px;
+	}
+	.login label{
+		text-align: left;
+	}
+	.login .regist {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.login .logo {
+    	padding-top: 20px;
+     	margin-bottom: 0px; 
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.login .form-control {
+    	width: 120%;
+    	padding-right: 48px;
+	}
+}
+@media only screen and (max-width: 989px) {
+	.login {
+   	 width: 42.99%;
+    }
+}
+@media only screen and (max-width: 768px) {
+	.login {
+   	 width: 47.99%;
+    }
+}
+@media only screen and (max-width: 610px) {
+	.login {
+   	 width: 57.99%;
+    }
+}
+@media (min-width: 320px) and (max-width: 460px){
+	.login {
+   	 width: 84.99%;
+    }
+    .login dl dt {
+    	width: 70%;
+    }
+    .login dl dd{
+    	float: right;
+    	margin-right: 20px;
+    	margin-top: 10px;
+    }
+    
+}
+@media (min-width: 470px) and (max-width: 530px){
+	.login {
+   	 	width: 62.99%;
+	}
+	.login dl dt{
+		margin-left: 20px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.login .checkbox a {
+		margin-right: 9%;
+	}
+}

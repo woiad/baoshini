@@ -1,0 +1,431 @@
+.content .location{
+	padding-left: 25px;
+	background: none;
+	padding: 20px 0 0 0;
+}
+.content .location p{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+	padding-left: 27px;
+}
+.content .location p span{
+	color: #666666;
+}
+.content .location p a{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.content .left_meun{
+	margin: 11px 0 0 54px;
+	width: 9.999%;
+	float: left;
+}
+.content .left_meun dt{
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	background: #CC6633;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.content .left_meun dt span img{
+	padding: 0 5px 5px 0;
+}
+.content .left_meun dd{
+	font-family: "微软雅黑";
+}
+.content .left_meun dd a{
+	color: #666666;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	margin-left: 23px;
+	font-family: "微软雅黑";
+	margin-bottom: 13px;
+}
+.content .left_meun .on a{
+	color: #CC6633;
+}
+.content .left_meun dd a:hover{
+	color: #CC6633;
+}
+.content .m_right{
+	width: 83.25%;
+	float: left;
+	padding-left: 6.33%;
+	
+}
+.content .m_right .tittle{
+	width: 100%;
+	height: 45px;
+	background: #CC6633;
+	font-family: "微软雅黑";
+	margin-top: 27px;
+}
+.content .m_right .tittle h1{
+	width: 100%;
+	background: url(../img/men.png) no-repeat left center;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 19px;
+	padding-left: 36px;
+	height: 45px;
+	line-height: 45px;
+}
+.content .m_right table{
+	width: 100%;
+	font-family: "微软雅黑";
+	margin: 20px 0 ;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .m_right table th{
+	padding-bottom: 5px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .m_right table th{
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+	text-align: center;
+}
+.content .m_right table th:first-child{
+	padding-left: 8.1%;
+	width: 47%;
+	text-align: left;
+}
+.content .m_right table td{
+	text-align: center;
+	color: #666666;
+	font-size: 12px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .m_right table .yell{
+	background: #f9e2b3;
+	width: 100%;
+	border: 1px solid #cccccc;
+	height: 24px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content table .c-checkbox {
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    margin-left: 24px;
+    float: left;
+    margin-top: 2px;
+    background: url(../img/order_inp.jpg) no-repeat 1px center;
+}
+label.c-checkbox.on{
+	background: url(../img/order_true.jpg) no-repeat 1px center;
+}
+.content table .c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+}
+.content .m_right table .yell p{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+	line-height: 24px;
+	margin: 0 0 0 24px;
+	float: left;
+	margin-right: 6.56%;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .m_right table .yell  span{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666666;
+	line-height: 24px;
+	display: block;
+	float: left;
+	
+}
+.content .m_right table tbody .goods{
+	padding-top: 16px;
+}
+.content .m_right table tbody .goods img{
+		display: block;
+		float: left;
+		margin-bottom: 20px;
+}
+.content .m_right table tbody .goods .goods_text{
+	float: left;
+}
+.content .m_right table tbody .goods p a{
+
+	float: left;
+	font-size: 14px;
+	color: #CC6633;
+	font-weight: normal;
+	padding-top: 28px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	
+}
+.content .m_right table tbody .goods p{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+}
+.content .m_right table tbody .goods p span{
+	padding-left: 35px;
+}
+.content .m_right table tbody  p{
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.content .m_right table tbody .operation a{
+	width: 80%;
+	display: block;
+	height: 26px;
+	background: #FF0000;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 26px;
+	table-layout:fixed;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.content .m_right table tbody .appraised a{
+	background: #CCCCCC;
+}
+.content .m_right .m_right_bottom{
+	width: 72.62%;
+	clear: both;
+	margin: 0 auto;
+}
+.content .m_right .m_right_bottom li{
+	float: left;
+	height: 22px;
+	border: 1px solid #909092;
+	margin-right: 10px;
+	color: #aaa9ab;
+	line-height: 22px;
+}
+.content .m_right .m_right_bottom li a{
+	font-family: "新宋体";
+	font-size: 16px;
+	color: #aaa9ab;
+	text-decoration: none;
+	display: block;
+	line-height: 22px;
+	width: 100%;
+	padding: 0 6px;
+	height: 22px;
+}
+.content .m_right .m_right_bottom .active{
+	background: #cc9966;
+}
+.content .m_right .m_right_bottom li:nth-child(1) {
+	border: none;
+	padding: 0;
+}
+.content .m_right .m_right_bottom li:nth-child(7) {
+	border: none;
+	padding: 0;
+}
+.content .m_right .m_right_bottom li:nth-child(11) {
+	border: none;
+	padding: 0;
+}
+.content .m_right .m_right_bottom  .btn-group li{
+	border: none;
+}
+.content .m_right .m_right_bottom  .btn{
+	border-radius: 0;
+	color: #909092;
+	background: transparent;
+	border-color: #909092;
+	padding: 0px 14px 0 5px;
+	width: 16px;
+	text-align: center;
+	height: 22px;
+	font-size: 14px;
+}
+.content .m_right .m_right_bottom .btn-group li{
+	padding: 0;
+}
+.content .m_right .m_right_bottom .dropdown-menu{
+	border-radius: 0;
+	min-width: 16px;
+	padding: 0px 0; 
+     margin: 0px 0 0;
+}
+.content .m_right .m_right_bottom .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 12px;
+}
+.btn .caret {
+    margin-left: -1px;
+}
+.caret {
+	border-top: 9px dashed;
+    border-right: 6px solid transparent;
+    border-left: 5px solid transparent;
+}
+.content .m_right .m_right_bottom .dropdown-toggle{
+	border: 1px solid #909092;
+}
+.content .m_right .m_right_bottom li:nth-child(12) {
+	padding: 0 0 0 6px;
+	height: 22px;
+	border: none;
+}
+.content .m_right .m_right_bottom li:hover a{
+	background: #cc9966;
+}
+.content .m_right .m_right_bottom li:nth-child(12):hover a{
+	background: none;
+}
+.content .m_right .m_right_bottom  .btn-group li:hover a{
+	background: none;
+}
+.footer{
+	margin-top: 100px;
+}
+@media only screen and (min-width: 1200px) {
+	.content .m_right table th:nth-child(4){
+		width: 107px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.content .location p{
+		font-size: 12px;
+	}
+	.content .left_meun {
+   		width: 12.999%;
+	}
+	.content .left_meun dd a {
+		margin-left: 10px;
+	}
+	.content .m_right table tbody .goods p {
+		margin-left: 5px;
+	}
+	.content .m_right table tbody .goods p a {
+		letter-spacing: 0;
+	}
+	.content .m_right .m_right_bottom {
+    	width: 88.62%;
+    }
+}
+@media only screen and (max-width: 992px) {
+	.content .container{
+    	width: 100%;
+    }
+    .content .left_meun {
+    	width: 86.999%;
+   		float: none;
+    }
+    .content .m_right{
+    	float:none;
+    	width: 94.25%;
+    }
+    .content .left_meun dd a {
+		text-align: center;
+		margin-top: 20px;
+		font-size:16px;
+		
+	}
+	.content .m_right table tbody .goods img {
+		float: none;
+		
+	}
+	.content .m_right table tbody .goods .goods_text {
+    	float: none;
+    	table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.content .m_right table tbody .goods p a {
+		padding-top: 0;
+		float: none;
+	}
+	.content .m_right table tbody .goods p {
+    	float: none;
+    	text-align: left;
+    	table-layout:fixed;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+    }
+	
+}
+@media only screen and (max-width: 768px) {
+	.content .m_right .m_data .pic {
+		float: none;
+		margin: 26px 0 10px 26px;
+	}
+	.content .left_meun {
+    	width: 97.999%;
+    	margin: 25px 0 0 0px;
+    }
+    .content .m_right {
+    	width: 93.25%;
+    	padding-left: 0;
+    }
+}
+@media only screen and (max-width: 430px) {
+	.content .m_right table tbody .goods p span {
+		display: block;
+		padding-left: 0;
+	}
+	.content .m_right table tbody .operation a {
+		width: 130%;
+	}
+}
+@media only screen and (max-width: 406px) {
+	.content .m_right table .yell span{
+		margin-left: 20px;
+	}
+}
+@media only screen and (max-width: 826px) {
+	.content .m_right .m_right_bottom {
+    width: 97.62%;
+}
+@media only screen and (max-width: 768px) {
+		
+	.content .m_right .m_right_bottom li{
+		float: left;
+		margin: 0;
+		border: none;
+		width: 50%;
+		font-size: 18px;
+		text-align: center;
+	}
+	.content .m_right .m_right_bottom li:hover a{
+		background: none;
+	}
+}

@@ -1,0 +1,473 @@
+.content .location{
+	padding-left: 25px;
+	background: none;
+	padding: 20px 0 0 0;
+}
+.content .location p{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+	padding-left: 27px;
+}
+.content .location p a{
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+}
+.content .location span {
+    color: #666666;
+}
+.content .left_meun{
+	margin: 11px 0 0 54px;
+	width: 9.999%;
+	float: left;
+}
+.content .left_meun dt{
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	background: #CC6633;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.content .left_meun dt span img{
+	padding: 0 5px 5px 0;
+}
+.content .left_meun dd{
+	font-family: "微软雅黑";
+	clear: both;
+}
+.content .left_meun dd a{
+	color: #666666;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	margin: 0 auto;
+	margin-left: 23px;
+	margin-bottom: 13px;
+}
+.content .left_meun .on a{
+	color: #CC6633;
+}
+.content .left_meun dd a:hover{
+	color: #CC6633;
+}
+.content .m_right{
+	width: 80.25%;
+	float: left;
+	padding-left: 6.33%;
+	font-family: "微软雅黑";
+	
+}
+.content .m_right .tittle{
+	width: 100%;
+	height: 45px;
+	background: #CC6633;
+	margin-top: 27px;
+}
+.content .m_right .tittle h1{
+	background: url(../img/shopping_addres.png) no-repeat left center;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 19px;
+	padding-left: 36px;
+	height: 45px;
+	line-height: 45px;
+}
+.content .m_right .new_addres{
+	clear: both;
+	overflow: hidden;
+	border: 1px solid #e9e9e9;
+	margin-top: 20px;
+}
+.content .m_right .new_addres p{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+	margin:20px 0 26px 22px
+}
+.content .m_right p span{
+	color: #cc6633;
+}
+.content .m_right .new_addres dd{
+	margin-bottom: 16px;
+}
+.content .m_right .new_addres dd p{
+	margin:6px 0 0 0;
+	padding-left: 6%;
+}
+.content .m_right .new_addres dd:nth-child(2){
+	padding-top: 16px;
+}
+.content .m_right .new_addres dd:nth-child(4) p{
+	padding-left: 4%;
+}
+.content .m_right .new_addres dd p i{
+	color:#FF0000;
+	font-style: normal;
+	padding-left: 5px;
+}
+.content .m_right .sel_region{
+	background: transparent;
+	border: 1px solid #dcdcdc;
+	font-size: 14px;
+	height: 30px;
+	border-radius: 0;
+	color: #666666;
+	margin: 0 10px;
+}
+.content .m_right .sel_region span{
+	padding-left: 10px;
+}
+
+.content .m_right   .dropdown-menu {
+	text-align: center;
+	border-radius: 0;
+	margin: 0 0 0 10px;
+	min-width: 20%;
+	-webkit-box-shadow: none;
+     box-shadow: none;
+    
+}
+.content .m_right .orgin .dropdown-menu {
+	min-width: 14.0%;
+	margin-left: 10px;
+}
+.content .m_right .dropdown-menu > li > a {
+	padding: 3px 26px;
+}
+.content .m_right .other_drop{
+	width: 33%;
+}
+.content .m_right .other_drop button{
+	color: #999999;
+}
+.content .m_right .other_drop .dropdown-menu{
+	min-width: 100%;
+}
+.content .m_right .other_region{
+	background: transparent;
+	border: 1px solid #dcdcdc;
+	font-size: 14px;
+	height: 30px;
+	border-radius: 0;
+	color: #666666;
+	width: 100%;
+}
+.content .m_right .other_region span{
+	padding-left: 50.33%;
+}
+.content .m_right .addres{
+	clear: both;
+}
+.content .m_right .addres textarea{
+	width: 47.7%;
+	height: 60px;
+	resize: none;
+	margin-left: 9px;
+	padding: 0 8px;
+	outline: none;
+}
+.content .m_right .post input{
+	width: 29.3%;
+	height: 30px;
+	padding: 0 8px;
+	margin-left: 18px;
+	outline: none;
+}
+.content .m_right .people{
+	clear: both;
+}
+.content .m_right .people input{
+	width: 29.3%;
+	height: 30px;
+	padding: 0 8px;
+	margin-left: 9px;
+	outline: none;
+}
+.content .m_right .phone{
+	clear: both;
+}
+.content .m_right .phone .sel_region{
+	margin: 0 16px;
+}
+.content .m_right .phone .dropdown-menu{
+	min-width: 88%;
+}
+.content .m_right .phone input{
+	width: 26.3%;
+	height: 30px;
+	padding: 0 8px;
+	margin-left: 9px;
+	outline: none;
+}
+.content .m_right .phone .orgin .dropdown-menu {
+	min-width: 80%;
+	margin-left: 16px;
+}
+.content .m_right .phone .area{
+	width: 7%;
+}
+.content .m_right .phone .phone_member{
+	width: 10%;
+}
+.content .m_right .phone .ext{
+	width:9%
+}
+.content  .c-checkbox{
+	cursor: pointer;
+	padding-bottom: 9px;
+	padding-left: 14.3%;
+}
+.content  .c-checkbox input{
+	position: absolute;
+	visibility: hidden;
+	outline: none;
+}
+.content  .c-checkbox span{
+	position: absolute;
+	display: block;
+	width: 13px;
+	height: 14px;
+	border: 1px solid #999999;
+	margin-top: 4px;		
+}
+.content  .c-checkbox input:checked + span:after{
+	position: absolute;
+	display: block;
+	left: 3px;
+	top: 0px;
+	width: 6px;
+	height: 11px;
+	border: solid red;
+	border-width: 0 2px 2px 0;
+	transform: rotate(35deg);
+	content: "";
+}
+.content  .c-checkbox i{
+	font-style: normal;
+	color: #666666;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+.content .m_right .icheckbox_minimal-red{
+	margin-left: 14.3%;
+}
+.content .m_right .save button{
+	width: 8.6%;
+	height: 31px;
+	background: #CC6633;
+	font-size: 16px;
+	color: #FFFFFF;
+	border: none;
+	margin-left: 14.3%;
+}
+
+
+.content .m_right .old_addres h1{
+	color: #CC6633;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin-top: 22px;
+}
+.content .m_right .old_addres table{
+	width: 100%;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.content .m_right .old_addres table th{
+	background: #dcdcdc;
+	color: #CC6633;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	height: 40px;
+}
+.content .m_right .old_addres table tr{
+	color: #666666;
+	font-size: 14px;
+	height: 61px;
+}
+.content .m_right .old_addres table tr a{
+	text-decoration: none;
+	color: #0030ff
+}
+.content .m_right .old_addres table tr:first-child{
+	background: #ecebeb;
+}
+.content .m_right .old_addres table tr:last-child{
+	background: #f8f7f7;
+}
+.content .m_right .old_addres table tr td button{
+	height: 20px;
+	color:#ffffff;
+	background: #CC6633;
+	border: none;
+	width: 71%;
+}
+.footer{
+	margin-top: 100px;
+	clear: both;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+	.content .location p{
+		font-size: 12px;
+	}
+	
+	.content .m_right .little_menu li dl{
+		margin-right: 0;
+	}
+	.content .m_right .little_menu {
+    width: 31.8%;
+    margin-right: 1.33%;
+    }
+    .content .left_meun {
+    width: 12.999%;
+	}
+	.content .left_meun dd a {
+		margin-left: 10px;
+	}
+	.content .m_right .other_drop {
+    	width: 57%;
+    }
+    .content .m_right .addres textarea {
+    	width: 74.7%;
+    }
+    .content .m_right .post input {
+    	width: 75.3%;
+    }
+    .content .m_right .people input {
+    	width: 74.3%;
+    }
+    .content .m_right .phone input {
+    	width: 51.3%;
+    }
+    .content .m_right .phone .area {
+    	width: 12%;
+	}
+	.content .m_right .phone .phone_member {
+    	width: 17%;
+	}
+	.content .m_right .phone .ext {
+    	width: 15%;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.content .container{
+    	width: 100%;
+    }
+    .content .left_meun {
+    width: 86.999%;
+    float: none;
+    }
+    .content .m_right{
+    	float:none;
+    	width: 94.25%;
+    }
+    .content .left_meun dd a {
+		text-align: center;
+		margin-top: 20px;
+		font-size:16px;
+		
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.content .left_meun {
+    	width: 97.999%;
+    	margin: 25px 0 0 0px;
+    }
+    .content .m_right {
+    	width: 99%;
+    	padding-left: 0;
+    }
+    .pull-left {
+    	float: none !important;
+	}
+    
+}
+
+@media (min-width:320px) and (max-width: 650px) {
+	.content .m_right .new_addres {
+		font-size: 12px;
+	}
+	.content .m_right .sel_region{
+		margin-top: 10px;
+	}
+	.content .m_right .other_drop button {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.content .m_right .other_drop {
+    	width: 92%;
+	}
+	.content .m_right .other_region span {
+    	padding-left: 40.33%;
+	}
+	.content .m_right .new_addres dd {
+   		margin-bottom: 9px;
+	}
+	.content .m_right .new_addres dd:nth-child(2) {
+    	padding-top: 1px;
+	}
+	.content .m_right .addres textarea {
+    	width: 91.7%;
+    	margin-top: 10px;
+	}
+	.content .m_right .post input {
+    	width: 93.3%;
+    	margin-left: 8px;
+    	margin-top: 10px;
+	}
+	.content .m_right .new_addres dd.people{
+		margin-top: 14px;
+	}
+	.content .m_right .people input {
+    	width: 74.3%;
+    	margin-top: 10px;
+	}
+	.content .m_right .new_addres dd p {
+		padding-left: 3%;
+	}
+	.content .m_right .new_addres dd.phone{
+		margin-top: 15px;
+	}
+	.content .m_right .phone input {
+    	width: 90.3%;
+	}
+	.content .m_right .phone .sel_region {
+   		 margin: 10px 10px;
+	}
+	.content .m_right .phone .area {
+    	width: 20%;
+	}
+	.content .m_right .phone .phone_member {
+    	width: 31%;
+	}
+	.content .m_right .phone .ext {
+    	width: 24%;
+	}
+	.content .m_right .save button {
+    	width: 17.6%;
+    }
+}
+@media (min-width: 447px) and (max-width: 520px) {
+	.content .m_right .other_region span {
+    	padding-left: 65.33%;
+	}
+}
+@media (min-width: 530px) and (max-width: 650px) {
+	.content .m_right .other_region span {
+   		 padding-left: 69.33%;
+	}
+}
