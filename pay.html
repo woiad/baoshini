@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>支付页面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/pay.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/pay.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/shop_car.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-text">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="login.html">请登录
+									<div class="line"></div>
+								</a>
+							</li>
+							<li>
+								<a href="regist.html">免费注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-right">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="###" class="hidden-xs">设为首页</a>
+							</li>
+							<li>
+								<a href="###" class="hidden-xs">加入收藏</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-center">
+				<div class="container">
+					<nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand " href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="index.html">首页<span class="on">HOME</span><i></i></a></li>
+						        <li><a href="brand_introduction.html">品牌介绍<span>BRAND</span><i></i></a></li>
+						        <li><a href="shop_car.html">购物车<span>SHOP</span><i></i></a></li>
+						        <li ><a href="news.html">新闻中心<span>NEWS</span><i></i></a></li>
+						        <li><a href="product.html">产品中心<span>PRDDUCT</span><i></i></a></li>
+						        <li class="active"><a href="member_home.html">会员中心<span>VIP</span><i></i></a></li>
+						        <li><a href="contact_us.html">联系我们<span>CONTACT</span><i></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<!--content-->
+		<div class="content">
+        	<div class="container">
+		    	<div class="location">
+		    		<p>当前位置: <a href="index.html">首页</a>  <span>></span>  <a href="member_home.html">会员中心</a> <span>></span>  <a href="pay.html">支付页</a></p>
+		    	</div>
+			    <div class="service_mess">
+				    <h1>配送信息</h1>
+				    <table>
+				    	<thead>
+				    		<th>包裹</th>
+				    		<th>配送方式</th>
+				    		<th>运费</th>
+				    		<th>备注</th>
+				    	</thead>
+				    	<tbody>
+				    		<td>包裹1<span><a href="###">(查看)</a></span></td>
+				    		<td>任意日期 （普通快递）</td>
+				    		<td>¥ 0.00</td>
+				    		<td>预计商品下单后明天到达</td>
+				    	</tbody>
+				    </table>
+				</div>
+				<div class="invoice">
+					<h1>发票信息</h1>
+					<div class="radio">
+						<span>发票类型：</span>
+						<label>
+					   		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> 不需要发票
+					    </label>
+					    <label class="on">
+					   		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> 普通发票
+					    </label>
+					    <label>
+					   		<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> 增值税专用发票
+					    </label>
+					</div>
+					<div class="inv_way">
+						<label>开票方式：</label>
+						<select>
+						    <option>电子发票</option>
+					    </select>
+					</div>
+					<div class="number">
+						<label>手机号码:</label>
+						<input type="text" placeholder="1234******11">
+						<span>收票人号码</span>
+					</div>
+					<div class="inv_head">
+						<label>发票抬头：</label>
+						<select>
+							<option>个人</option>
+					   </select>
+					</div>
+					<div class="inv_con">
+						<span>发票内容：</span>
+						<label class="checkbox-inline">
+							<input type="radio" name="optionsRadiosinline" id="optionsRadios3"  value="option1" checked> 需要明细发票
+					   </label><br />
+					    <label class="checkbox-inline check on">
+							<input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2" class="ra_chec"> 
+								<div class="dropdown ">
+									<button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">日用品
+										<span class="trangle"><i></i></span>
+									</button>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+										<li role="presentation">
+											<a role="menuitem"  href="#">日用品</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem"  href="#">日用品</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" href="#"> 日用品</a>
+										</li>
+											      	
+									</ul>
+								</div>
+					    </label>
+					    <label class="checkbox-inline ">
+                             <input type="checkbox" id="inlineCheckbox3" value="option3"> 选项 3
+                        </label>
+					</div>
+				</div>
+				<div class="shop_car">
+					<h1>我的购物车</h1>
+			        <table>
+		        	<thead>
+		        		<tr>
+		        			<th>
+                                <label class="c-checkbox">
+		        					<input type="checkbox" >
+		        					<span class="all">全选</span>
+		        				</label>
+		        			</th>
+		        			<th >商品</th>
+		        			<th >单价 （元）</th>
+		        			<th >数量</th>
+		        			<th >优惠方式 （元）</th>
+		        			<th >总价 （元）</th>
+		        			<th></th>
+		        			
+		        		</tr>
+		        	</thead>
+		        	<tbody>
+		        		<tr>
+		        			<td class="all-check" id="check">
+		        				<label class="c-checkbox">
+		        					<input type="checkbox" >
+		        				</label>
+		        			</td>
+		        			<td class="goods">
+		        				<a href="pro_details.html"><img src="img/shopping_car_pro.jpg"></a>
+		        				<div class="goods_text">
+		        				    <p><a href="pro_details.html">SCOFIELD英伦气质修身立领中长款毛衣</a></p><br />
+		        				    <p>尺码：M<span>颜色：乳白色</span></p>
+		        				</div>
+		        			</td>
+		        			<td > ￥ 666.00</td>
+		        			<td class="count">
+		        				<span type="button" class="reduce" onclick="">-</span>
+								<input type="text" class="count-input prd_num"  value="1"  id="prd_numc"/>
+								<span type="button" class="add" onclick="">+</span>
+		        			</td>
+		        			<td >
+			        			<div class="dropdown hidden-xs">
+								    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">无优惠
+								        <span class="trangle"><i></i></span>
+								    </button>
+								    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								      	</li>
+								      	<li role="presentation">
+								         	<a role="menuitem" href="#"> 无优惠</a>
+								      	</li>
+								      	
+								    </ul>
+								</div>
+								<div class="none hidden-lg hidden-md hidden-sm">
+									无优惠
+								</div>
+		        			</td>
+		        			<td class=" sum cont">
+		        				<span > ￥  666.00</span>
+		        			</td>
+		        			<td class="del ">
+		        				<a href="###">删除</a>
+		        			</td>
+		        		</tr>
+                        <tr>
+		        			<td class="all-check" id="check">
+		        				<label class="c-checkbox">
+		        					<input type="checkbox" >		        					
+		        				</label>
+		        			</td>
+		        			<td class="goods">
+		        				<a href="pro_details.html"><img src="img/shopping_car_pro.jpg"></a>
+		        				<div class="goods_text">
+		        				    <p><a href="pro_details.html">SCOFIELD英伦气质修身立领中长款毛衣</a></p><br />
+		        				    <p>尺码：M<span>颜色：乳白色</span></p>
+		        				</div>
+		        			</td>
+		        			<td > ￥ 666.00</td>
+		        			<td class="count">
+		        				<span type="button" class="reduce" onclick="">-</span>
+								<input type="text" class="count-input prd_num"  value="1"  id="prd_numc"/>
+								<span type="button" class="add" onclick="">+</span>
+		        			</td>
+		        			<td >
+			        			<div class="dropdown hidden-xs">
+								    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">无优惠
+								        <span class="trangle"><i></i></span>
+								    </button>
+								    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								      	</li>
+								      	<li role="presentation">
+								         	<a role="menuitem" href="#"> 无优惠</a>
+								      	</li>
+								      	
+								    </ul>
+								</div>
+								<div class="none hidden-lg hidden-md hidden-sm">
+									无优惠
+								</div>
+		        			</td>
+		        			<td class=" sum cont">
+		        				<span > ￥  666.00</span>
+		        			</td>
+		        			<td class="del " >
+		        				<a href="###">删除</a>
+		        			</td>
+		        		</tr>
+                        <tr>
+		        			<td class="all-check" id="check">
+		        				<label class="c-checkbox">
+		        					<input type="checkbox" >
+		        					
+		        				</label>
+		        			</td>
+		        			<td class="goods">
+		        				<a href="pro_details.html"><img src="img/shopping_car_pro.jpg"></a>
+		        				<div class="goods_text">
+		        				    <p><a href="pro_details.html">SCOFIELD英伦气质修身立领中长款毛衣</a></p><br />
+		        				    <p>尺码：M<span>颜色：乳白色</span></p>
+		        				</div>
+		        			</td>
+		        			<td > ￥ 666.00</td>
+		        			<td class="count">
+		        				<span type="button" class="reduce" onclick="">-</span>
+								<input type="text" class="count-input prd_num"  value="1"  id="prd_numc"/>
+								<span type="button" class="add" onclick="">+</span>
+		        			</td>
+		        			<td >
+			        			<div class="dropdown hidden-xs">
+								    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">无优惠
+								        <span class="trangle"><i></i></span>
+								    </button>
+								    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								      	</li>
+								      	<li role="presentation">
+								         	<a role="menuitem" href="#"> 无优惠</a>
+								      	</li>
+								      	
+								    </ul>
+								</div>
+								<div class="none hidden-lg hidden-md hidden-sm">
+									无优惠
+								</div>
+		        			</td>
+		        			<td class=" sum cont">
+		        				<span > ￥  666.00</span>
+		        			</td>
+		        			<td class="del " >
+		        				<a href="###">删除</a>
+		        			</td>
+		        		</tr>
+		        		
+		        	</tbody>
+		        </table>
+				</div>
+				<div class="pay">
+					<div class="pay_top">
+						<div class="radio">
+						    <label >
+						      <input type="checkbox" name="optionsRadios" id="optionsRadios1"  value="option1" >
+						            <span>中国农业银行</span>
+						    </label>
+						</div>
+						<p>**********6666</p>
+						<p><a href="###">储蓄卡</a> | <a href="###">快捷　</a></p>
+						<span>支付　666.00元</span>
+					</div>
+					<div class="pay_bottom form">
+						<a href="###" class="pay">其他支付方式</a>
+						<a href="###" class="add_car">+添加银行卡</a>
+						<h1>您在安全环境中，请放心使用 ！</h1>
+						<p>请输入支付密码</p>
+						<ul>
+							<li><input type="password" maxlength="1" value=""></li>
+							<li><input type="password" maxlength="1" value=""></li>
+							<li><input type="password" maxlength="1" value=""></li>
+							<li><input type="password" maxlength="1" value=""></li>
+							<li><input type="password" maxlength="1" value=""></li>
+							<li><input type="password" maxlength="1" value=""></li>
+							<span><a href="###">忘记密码 ？</a></span>
+						</ul>
+						<p class="inp_pass">请输入6位数密码</p>
+						<button class="check_pay"> <a href="pay_for_success.html" >确认支付</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content end-->
+		<!--content end-->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 clo-md-3 col-sm-3 col-xs-7  f_left">
+						
+						<h1>服务热线：<span><img src="img/phone.png"></span><br/>000-13579246</h1>
+						<p>公司地址：广州是海珠去广州是海珠去</p>
+						<p>邮箱： 123456@qq.com</p>
+						<p>邮政编码： 100085</p>
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 f_right col-lg-offset-2 col-md-offset-2 col-sm-offset-2 ">
+						<div class="row">
+							<dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>关于我们<span></span><i></i></dt>
+								    <dd><a href="###">品牌介绍</a></dd>
+								    <dd><a href="###">企业文化</a></dd>
+								    <dd><a href="###">服务理念</a></dd>
+								    <dd><a href="###">品牌故事</a></dd>
+								    <dd><a href="###">大事件</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>产品中心 <span></span><i></i></dt>
+								    <dd ><a href="###">T恤</a><span><a href="###">衬衫</a></span></dd>
+								    <dd ><a href="###">外套</a><span><a href="###">皮衣</span></a></dd>
+								    <dd ><a href="###">卫衣</a><span><a href="###">休闲衫</span></a></dd>
+								    <dd ><a href="###">皮衣</a><span><a href="###">连衣裙</span></a></dd>
+								    <dd ><a href="###">短裤</a><span><a href="###">牛仔裤</span></a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>会员中心 <span></span><i></i></dt>
+								    <dd><a href="###">会员中心</a></dd>
+								    <dd><a href="###">会员资料</a></dd>
+								    <dd><a href="###">会员注册</a></dd>
+								    <dd><a href="###">会员特权</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							    <dt>联系我们<span></span><i></i></dt>
+								    <dd><a href="###">联系方式</a></dd>
+								    <dd><a href="###">招商代理</a></dd>
+								    <dd><a href="###">人才招聘</a></dd>
+								    <dd><a href="###">在线留言</a></dd>
+						    </dl>
+						    <dl class="col-lg-3 col-md-3 col-sm-2 col-xs-6">
+							    <dt>企业微信<span></span><i></i></dt>
+								    <dd><img src="img/erweima.png" class="img-responsive"></dd>
+						    </dl>			
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="footer_bot">
+				<p>Copyright@2016-2017 多迪有限公司 版权所有</p>
+			</div>
+		</footer>
+	</body>
+</html>

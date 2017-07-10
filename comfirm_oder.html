@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>确认订单页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/minimal/red.css">
+		<link rel="stylesheet" href="css/comfirm_order.css"/>
+		<script  type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript"  src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/comfirm_order.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-text">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="login.html">请登录
+									<div class="line"></div>
+								</a>
+							</li>
+							<li>
+								<a href="regist.html">免费注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-right">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="###" class="hidden-xs">设为首页</a>
+							</li>
+							<li>
+								<a href="###" class="hidden-xs">加入收藏</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-center">
+				<div class="container">
+					<nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand " href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="index.html">首页<span class="on">HOME</span><i></i></a></li>
+						        <li><a href="brand_introduction.html">品牌介绍<span>BRAND</span><i></i></a></li>
+						        <li class="active"><a href="shop_car.html">购物车<span>SHOP</span><i></i></a></li>
+						        <li><a href="news.html">新闻中心<span>NEWS</span><i></i></a></li>
+						        <li><a href="product.html">产品中心<span>PRDDUCT</span><i></i></a></li>
+						        <li><a href="member_home.html">会员中心<span>VIP</span><i></i></a></li>
+						        <li><a href="contact_us.html">联系我们<span>CONTACT</span><i></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<!--content-->
+		<div class="content">
+        	<div class="container">
+		    	<div class="location">
+		    		<p>当前位置: <a href="index.html">首页</a>  <span>></span>  <a href="shop_car.html">购物车</a> <span>></span>  <a href="comfirm_oder.html">确认订单</a></p>
+		    	</div>
+		        <div class="shop_tittle">
+
+		    		<ul>
+		    		    <li  ><a  class="prev ">查看购物车</a></li>
+		    		    <li ><a  class="centre on">确认订单页</a></li>
+		    		    <li ><a  class="centre">确认地址页</a></li>
+		    		    <li><a  class="next">订单提交页</a></li>
+		    	    </ul>
+		        </div>
+		        <h1>
+		        	商品清单<span><a href="shop_car.html">返回购物车</a></span>
+		        </h1>
+		        <table>
+		        	<thead>
+		        		<tr>
+		        			<th >商品</th>
+		        			<th >单价 （元）</th>
+		        			<th >数量</th>
+		        			<th >优惠方式 （元）</th>
+		        			<th >总价 （元）</th>
+		        		</tr>
+		        	</thead>
+		        	<tbody>
+			           <tr>
+		        			<td class="goods">
+		        				<a href="pro_details.html"><img src="img/shopping_car_pro.jpg"></a>
+		        				<div class="goods_text">
+		        				    <p><a href="pro_details.html">SCOFIELD英伦气质修身立领中长款毛衣</a></p><br />
+		        				    <p>尺码：M<span>颜色：乳白色</span></p>
+		        				</div>
+		        			</td>
+		        			<td > ￥ 327.00</td>
+		        			<td class="count">
+		        				<span type="button" class="reduce" onclick="">-</span>
+								<input type="text" class="count-input prd_num"  value="1"  id="prd_numc"/>
+								<span type="button" class="add" onclick="">+</span>
+		        			</td>
+		        			<td >
+			        			<div class="dropdown hidden-xs">
+								    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">无优惠
+								        <span class="trangle"><i></i></span>
+								    </button>
+								    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem"  href="#">无优惠</a>
+								      	</li>
+								      	<li role="presentation">
+								         	<a role="menuitem" href="#"> 无优惠</a>
+								      	</li>
+								      	
+								    </ul>
+								</div>
+								<div class="none hidden-lg hidden-md hidden-sm">
+									无优惠
+								</div>
+		        			</td>
+		        			<td class=" sum cont">
+		        				<span > ￥  327.00</span>
+		        			</td>
+		        
+		        		</tr>
+                    </tbody>
+		        </table>
+		        <h1>
+		        	商品清单
+		        </h1>
+		        <div class="submit_goods row">
+			        <label>留言：</label>
+			        <input type="text" class="form-control"/>
+			        <p class="way_dir">运送方式:</p>
+			        <div class="dropdown ">
+						<button type="button" class="btn dropdown-toggle" id="dropdownMenu1"  data-toggle="dropdown">免运费
+							<span class="trangle"><i></i></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+							<li role="presentation">
+								<a role="menuitem"  href="#">免运费</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem"  href="#">免运费</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" href="#"> 免运费</a>
+							</li>
+								      	
+						</ul>
+					</div>
+					<p class="collect">￥0.00</p>
+					<div class="order">
+						<p>总价（含运费）：<strong>￥ 666.00</strong></p>
+						<p>实附款：  <strong>￥  666.00</strong>  </p>
+						<label class="on">
+							<input type="checkbox" />
+							匿名购买
+					    </label>
+						<label>
+							<input type="checkbox" />
+							找人代付
+						</label>
+						<label>
+							<input type="checkbox" />
+							货到付款
+						</label>
+						<a href="comfirm_address.html" class="order_sub ">提交订单</a>
+					</div>
+					<h2>若有价格变动（包括运费），请联系卖家</h2>
+		        </div>
+		    </div>
+	   </div>
+	   <!--content end-->
+	   <footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 clo-md-3 col-sm-3 col-xs-7  f_left">
+						
+						<h1>服务热线：<span><img src="img/phone.png"></span><br/>000-13579246</h1>
+						<p>公司地址：广州是海珠去广州是海珠去</p>
+						<p>邮箱： 123456@qq.com</p>
+						<p>邮政编码： 100085</p>
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 f_right col-lg-offset-2 col-md-offset-2 col-sm-offset-2 ">
+						<div class="row">
+							<dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>关于我们<span></span><i></i></dt>
+								    <dd><a href="###">品牌介绍</a></dd>
+								    <dd><a href="###">企业文化</a></dd>
+								    <dd><a href="###">服务理念</a></dd>
+								    <dd><a href="###">品牌故事</a></dd>
+								    <dd><a href="###">大事件</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>产品中心 <span></span><i></i></dt>
+								    <dd ><a href="###">T恤</a><span><a href="###">衬衫</a></span></dd>
+								    <dd ><a href="###">外套</a><span><a href="###">皮衣</span></a></dd>
+								    <dd ><a href="###">卫衣</a><span><a href="###">休闲衫</span></a></dd>
+								    <dd ><a href="###">皮衣</a><span><a href="###">连衣裙</span></a></dd>
+								    <dd ><a href="###">短裤</a><span><a href="###">牛仔裤</span></a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>会员中心 <span></span><i></i></dt>
+								    <dd><a href="###">会员中心</a></dd>
+								    <dd><a href="###">会员资料</a></dd>
+								    <dd><a href="###">会员注册</a></dd>
+								    <dd><a href="###">会员特权</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							    <dt>联系我们<span></span><i></i></dt>
+								    <dd><a href="###">联系方式</a></dd>
+								    <dd><a href="###">招商代理</a></dd>
+								    <dd><a href="###">人才招聘</a></dd>
+								    <dd><a href="###">在线留言</a></dd>
+						    </dl>
+						    <dl class="col-lg-3 col-md-3 col-sm-2 col-xs-6">
+							    <dt>企业微信<span></span><i></i></dt>
+								    <dd><img src="img/erweima.png" class="img-responsive"></dd>
+						    </dl>			
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="footer_bot">
+				<p>Copyright@2016-2017 多迪有限公司 版权所有</p>
+			</div>
+		</footer>
+	</body>
+</html>

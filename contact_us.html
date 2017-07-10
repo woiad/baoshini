@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/contact_us.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<!--<script type="text/javascript" src="js/contact.js"></script>-->
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-text">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="login.html">请登录
+									<div class="line"></div>
+								</a>
+							</li>
+							<li>
+								<a href="regist.html">免费注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header-right">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="###" class="hidden-xs">设为首页</a>
+							</li>
+							<li>
+								<a href="###" class="hidden-xs">加入收藏</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-center">
+				<div class="container">
+					<nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand " href="index.html"><img src="img/logo.png"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="index.html">首页<span class="on">HOME</span><i></i></a></li>
+						        <li><a href="brand_introduction.html">品牌介绍<span>BRAND</span><i></i></a></li>
+						        <li ><a href="shop_car.html">购物车<span>SHOP</span><i></i></a></li>
+						        <li><a href="news.html">新闻中心<span>NEWS</span><i></i></a></li>
+						        <li><a href="product.html">产品中心<span>PRDDUCT</span><i></i></a></li>
+						        <li><a href="member_home.html">会员中心<span>VIP</span><i></i></a></li>
+						        <li class="active"><a href="contact_us.html">联系我们<span>CONTACT</span><i></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+				</div>
+			</div>
+		</div>
+		<!--header end-->
+		<!--content-->
+		<div class="content">
+			<div class="banner">
+			    <div class="banner_con">
+				    <a href="###"><img src="img/banner02.jpg"/></a>
+			    </div>
+		    </div>
+		    <div class="container">
+		    	<div class="location">
+		    		<p>当前位置: <a href="###">首页</a>  <span>></span>  <a href="###">联系我们</a></p>
+		    	</div>
+		    	<div class="row contact_text">
+		    		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-0 col-sm-offset-0 col-xs-offset-0">
+		    			<h1><img src="img/contact_us01.jpg"></h1>
+		    			<p>广州市保时霓服饰有限公司</p>
+		    			<p>地址：广州市海珠区客村001号</p>
+		    			<p>电话：123-45678900</p>
+		    			<p>QQ：666666666</p>
+		    			<p>传真：123-123456789</p>
+		    			<p>E-mail：123456789@qq.com</p>
+		    		</div>
+		    		<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+		    			<h2>信息留言</h2>
+		    			<form role="form" class="form-horizontal">
+		    				<div class="form-group">
+		    					<label class="col-lg-4 col-md-12 col-sm-12 col-xs-12 control-label">您的姓名：</label>
+		    					<div id="userNameTip" title="温馨提示" data-container="body" data-toggle="popover" data-placement="top" 
+								data-content="请输入您的性名！"></div>
+		    					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" >
+		    				        <input type="text" class="form-control" id="userName" onblur="checkUsrename(this.value)">
+		    				    </div>
+		    				</div>
+		    				<div class="form-group">
+		    					<label class="col-lg-4 col-md-12 col-sm-12 col-xs-12 control-label">联系电话：</label>
+		    					<div id="phoneTip" title="温馨提示" data-container="body" data-toggle="popover" data-placement="top" 
+								data-content="请输入您的手机号！"></div>
+		    					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" >
+		    				        <input type="text" class="form-control" id="phone" onblur="checkPhone(this.value)">
+		    				    </div>
+		    				</div>
+		    				<div class="form-group">
+		    					<label class="col-lg-4 col-md-12 col-sm-12 col-xs-12 control-label">您的邮箱：</label>
+		    					<div id="e-mialTip" title="温馨提示" data-container="body" data-toggle="popover" data-placement="top" 
+								data-content="请输入您的邮箱！"></div>
+		    					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" >
+		    				        <input type="text" class="form-control" id="e-mial" onblur="checkEmial(this.value)">
+		    				    </div>
+		    				</div>
+		    				
+		    				<div class="form-group">
+		    					<label class="col-lg-4 col-md-12 col-sm-12 col-xs-12 control-label">您的留言:</label>
+		    					<div id="messageTip" title="温馨提示" data-container="body" data-toggle="popover" data-placement="top" 
+								data-content="请输入您的留言！"></div>
+		    					<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+		    				        <textarea id="message" onblur="checkMessage(this.value)"></textarea>
+		    				    </div>
+		    				</div>
+		    				<label class="com_text">验证码：</label>
+		    				<input type="text" class="comm " onblur="checkComm(this.value)" id="comm">
+		    				<img src="img/contact_us_03.jpg">
+		    				<span><a href="###">看不清？换一张</a></span>
+		    				<input type="submit" class="submit" >
+		    				<input type="reset" class="reset"> 
+		    			</form>
+		    		</div>
+		    	</div>
+		    	<div class="map">
+		    		<div style="width:100%;height:329px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+		    	</div>
+		    </div>
+		</div>
+		<!--content end-->
+		<!--footer-->
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 clo-md-3 col-sm-3 col-xs-7  f_left">
+						
+						<h1>服务热线：<span><img src="img/phone.png"></span><br/>000-13579246</h1>
+						<p>公司地址：广州是海珠去广州是海珠去</p>
+						<p>邮箱： 123456@qq.com</p>
+						<p>邮政编码： 100085</p>
+					</div>
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 f_right col-lg-offset-2 col-md-offset-2 col-sm-offset-2 ">
+						<div class="row">
+							<dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>关于我们<span></span><i></i></dt>
+								    <dd><a href="###">品牌介绍</a></dd>
+								    <dd><a href="###">企业文化</a></dd>
+								    <dd><a href="###">服务理念</a></dd>
+								    <dd><a href="###">品牌故事</a></dd>
+								    <dd><a href="###">大事件</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>产品中心 <span></span><i></i></dt>
+								    <dd ><a href="###">T恤</a><span><a href="###">衬衫</a></span></dd>
+								    <dd ><a href="###">外套</a><span><a href="###">皮衣</span></a></dd>
+								    <dd ><a href="###">卫衣</a><span><a href="###">休闲衫</span></a></dd>
+								    <dd ><a href="###">皮衣</a><span><a href="###">连衣裙</span></a></dd>
+								    <dd ><a href="###">短裤</a><span><a href="###">牛仔裤</span></a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+							    <dt>会员中心 <span></span><i></i></dt>
+								    <dd><a href="###">会员中心</a></dd>
+								    <dd><a href="###">会员资料</a></dd>
+								    <dd><a href="###">会员注册</a></dd>
+								    <dd><a href="###">会员特权</a></dd>
+						    </dl>
+						    <dl class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+							    <dt>联系我们<span></span><i></i></dt>
+								    <dd><a href="###">联系方式</a></dd>
+								    <dd><a href="###">招商代理</a></dd>
+								    <dd><a href="###">人才招聘</a></dd>
+								    <dd><a href="###">在线留言</a></dd>
+						    </dl>
+						    <dl class="col-lg-3 col-md-3 col-sm-2 col-xs-6">
+							    <dt>企业微信<span></span><i></i></dt>
+								    <dd><img src="img/erweima.png" class="img-responsive"></dd>
+						    </dl>			
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class="footer_bot">
+				<p>Copyright@2016-2017 多迪有限公司 版权所有</p>
+			</div>
+		</footer>
+		<!--footer end-->
+	</body>
+	 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+</html>
